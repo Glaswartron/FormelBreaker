@@ -1,0 +1,117 @@
+<resources>
+    <string name="physics_button_label">Physics</string>
+    <string name="chemistry_button_label">Chemistry</string>
+    <string name="kategorienText">Categories</string>
+    <string name="formelnText">Formulas</string>
+    <string name="go_button_label">Go</string>
+    <string name="clear_button_label">Clear</string>
+    <string name="result_button_label">Result:</string>
+    <string name="favorites_button_label">Favorites</string>
+    <string name="options_button_label">Options</string>
+    <string name="search_text_1">Search under</string>
+    <string name="search_text_2">Search for</string>
+    <string name="search_Button_Label">Search</string>
+    <string name="favoritesText">Favorites</string>
+    <string name="switchButtonLabel1">Formula</string>
+    <string name="switchButtonLabel2">Name</string>
+    <string name="options_Text">Options</string>
+    <string name="options_language">Language:</string>
+    <string name="options_round">Rounding precision:</string>
+    <string name="options_gconstant">Gravitational acceleration:</string>
+    <string name="legal_label">Legal</string>
+    <string name="noSearchResults">No results</string>
+    <string name="noFavorites">No favorites</string>
+    <string name="unitsText">Units</string>
+    <string name="more_button_label">More</string>
+    <string name="constants_button_label">Constants</string>
+    <string name="constantsTableSymbol">Symbol</string>
+    <string name="legal_text">
+        We are very grateful to all supporters, especially\n\n
+    - to the teachers of Hans-Sachs-Gymnasium Nuremberg\n
+    - to Joshua Brandes\n
+    - to our families and friends who supported the development of Formel Breaker\n\n\n\n
+    \n\n
+    Benedikt Wille\n
+    Laufamholzstraße, 422\n
+    90482 Nürnberg\n
+    \n
+    Rene Jokiel\n
+    Wunibaldstraße, 2\n
+    90491 Nürnberg\n
+    \n
+    Contact:\n
+    Telephone: +49 152 09897398\n
+    E-Mail: FormelBreaker@gmx.net\n
+    \n
+    Disclaimer:\n
+    \n
+    © Benedikt Wille, Rene Jokiel 2018\n
+    Creator: Benedikt Wille, Rene Jokiel\n
+    \n
+    This software, the Name Formel Breaker, the designs and graphics, the
+    databases and the underlying code of the software are subject to copyright law\n
+    \n
+    Duplication, editing, distribution and all kinds of exploitation of the software beyond
+    the boundaries of copyright law require written agreement by the author / creator\n
+    \n
+    Downloads and copies of the software are only permitted for private, non-commercial use\n
+    \n
+    The distribution or re-implementation of the software (or components of it) based\n
+    on the software is not permitted to third-party users
+    \n\n
+    Formel Breaker makes use of the mXparser-library by Mariusz Gromada:
+    \n\nmXparser: Copyright 2010-2017 MARIUSZ GROMADA. All rights reserved. You may use this software under the condition of Simplified BSD License.\n\n
+    </string>
+
+    <string name="deluxe_ad_text">
+        Formel Breaker Deluxe offers you:
+        \n
+        \n
+        -> An extensive directory of constants with exact values and units
+        \n
+        \n
+        -> A separate unit converter with exact value and conversion tables for each unit
+        \n
+        \n
+        -> A lot more formulas from the fields of interest calculation, economy, optics, astrophysics and more
+        \n
+        \n
+        -> Higher rounding precision for even more exact calculations with very small number
+        \n
+        \n
+        All that and more Formel Breaker Deluxe has to offer you without any ads and for only 2.49€
+        \n
+        \n
+        Now available on the Google Play Store
+    </string>
+
+    <string-array name="search_field_spinner_items">
+        <item>All</item>
+        <item>Maths</item>
+        <item>Physics</item>
+        <item>Chemistry</item>
+        <item>More</item>
+    </string-array>
+
+    <string-array name="search_type_spinner_items">
+        <item>Formula name</item>
+        <item>Variable name</item>
+        <item>Variable symbol</item>
+        <item>Category</item>
+    </string-array>
+
+    <string-array name="options_langs_spinner_items">
+        <item>Deutsch</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="options_gconstant_spinner_items">
+        <item>g variable</item>
+        <item>g = 9,81m/s²</item>
+    </string-array>
+
+    <string name="math_button_label">Maths</string>
+    <string name="app_name" translatable="false">Formel Breaker </string>
+    <string name="app_name_display" translatable="false">Formel \nBreaker</string>
+    <string name="privacyPolicy_button_label">Privacy Policy</string>
+</resources>

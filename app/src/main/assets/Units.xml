@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    © Benedikt Wille, Rene Jokiel 2018
+    Urheber: Benedikt Wille, Rene Jokiel
+
+    Dieses Dokument ist gemäß deutschem Urheberschutz geschützt
+
+    Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen
+    des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers
+
+    Die Vervielfältigung oder Neu-Umsetzung (auch einzelner Komponenten) der Software auf
+    Basis der Software wird Dritten nicht gestattet
+-->
+
+<Units>
+    <Unit>
+        <Identifier>none</Identifier>
+        <SingleUnit> </SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>length</Identifier>
+        <UnitName lang="DE">Länge</UnitName>
+        <BaseUnitName lang="DE">Meter</BaseUnitName>
+        <UnitName lang="ENG">Length</UnitName>
+        <BaseUnitName lang="ENG">Meter</BaseUnitName>
+        <SingleUnit>mm</SingleUnit>
+        <SingleUnit>cm</SingleUnit>
+        <SingleUnit>dm</SingleUnit>
+        <SingleUnit>m</SingleUnit>
+        <SingleUnit>km</SingleUnit>
+        <Value>0.001</Value>
+        <Value>0.01</Value>
+        <Value>0.1</Value>
+        <Value>1</Value>
+        <Value>1000</Value>
+    </Unit>
+    <Unit>
+        <Identifier>area</Identifier>
+        <UnitName lang="DE">Fläche</UnitName>
+        <BaseUnitName lang="DE">Quadratmeter</BaseUnitName>
+        <UnitName lang="ENG">Area</UnitName>
+        <BaseUnitName lang="ENG">Square meter</BaseUnitName>
+        <SingleUnit>mm²</SingleUnit>
+        <SingleUnit>cm²</SingleUnit>
+        <SingleUnit>dm²</SingleUnit>
+        <SingleUnit>m²</SingleUnit>
+        <SingleUnit>a</SingleUnit>
+        <SingleUnit>ha</SingleUnit>
+        <SingleUnit>km²</SingleUnit>
+        <Value>0.000001</Value>
+        <Value>0.0001</Value>
+        <Value>0.01</Value>
+        <Value>1</Value>
+        <Value>100</Value>
+        <Value>10000</Value>
+        <Value>1000000</Value>
+    </Unit>
+    <Unit>
+        <Identifier>volume</Identifier>
+        <UnitName lang="DE">Volumen</UnitName>
+        <BaseUnitName lang="DE">Kubikmeter</BaseUnitName>
+        <UnitName lang="ENG">Volume</UnitName>
+        <BaseUnitName lang="ENG">Cubic meter</BaseUnitName>
+        <SingleUnit>mm³</SingleUnit>
+        <SingleUnit>cm³</SingleUnit>
+        <SingleUnit>ml</SingleUnit>
+        <SingleUnit>dm³</SingleUnit>
+        <SingleUnit>l</SingleUnit>
+        <SingleUnit>m³</SingleUnit>
+        <SingleUnit>km³</SingleUnit>
+        <Value>0.000000001</Value>
+        <Value>0.000001</Value>
+        <Value>0.000001</Value>
+        <Value>0.001</Value>
+        <Value>0.001</Value>
+        <Value>1</Value>
+        <Value>1000000000</Value>
+    </Unit>
+    <Unit>
+        <Identifier>time</Identifier>
+        <UnitName lang="DE">Zeit</UnitName>
+        <BaseUnitName lang="DE">Sekunden</BaseUnitName>
+        <UnitName lang="ENG">Time</UnitName>
+        <BaseUnitName lang="ENG">Seconds</BaseUnitName>
+        <SingleUnit>ms</SingleUnit>
+        <SingleUnit>s</SingleUnit>
+        <SingleUnit>min</SingleUnit>
+        <SingleUnit>h</SingleUnit>
+        <Value>0.001</Value>
+        <Value>1</Value>
+        <Value>60</Value>
+        <Value>3600</Value>
+    </Unit>
+    <Unit>
+        <Identifier>mass</Identifier>
+        <UnitName lang="DE">Masse</UnitName>
+        <BaseUnitName lang="DE">Kilogramm</BaseUnitName>
+        <UnitName lang="ENG">Mass</UnitName>
+        <BaseUnitName lang="ENG">Kilogram</BaseUnitName>
+        <SingleUnit>µg</SingleUnit>
+        <SingleUnit>mg</SingleUnit>
+        <SingleUnit>g</SingleUnit>
+        <SingleUnit>kg</SingleUnit>
+        <SingleUnit>t</SingleUnit>
+        <SingleUnit>kt</SingleUnit>
+        <Value>0.000000001</Value>
+        <Value>0.000001</Value>
+        <Value>0.001</Value>
+        <Value>1</Value>
+        <Value>1000</Value>
+        <Value>1000000</Value>
+    </Unit>
+    <Unit>
+        <Identifier>velocity</Identifier>
+        <SingleUnit>m/s</SingleUnit>
+        <SingleUnit>km/h</SingleUnit>
+        <Value>1</Value>
+        <Value>0.27777777777777777778</Value>
+    </Unit>
+    <Unit>
+        <Identifier>acceleration</Identifier>
+        <SingleUnit>m/s²</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>force</Identifier>
+        <UnitName lang="DE">Kraft</UnitName>
+        <BaseUnitName lang="DE">Newton</BaseUnitName>
+        <UnitName lang="ENG">Force</UnitName>
+        <BaseUnitName lang="ENG">Newton</BaseUnitName>
+        <SingleUnit>mN</SingleUnit>
+        <SingleUnit>cN</SingleUnit>
+        <SingleUnit>N</SingleUnit>
+        <SingleUnit>daN</SingleUnit>
+        <SingleUnit>kN</SingleUnit>
+        <SingleUnit>MN</SingleUnit>
+        <Value>0.001</Value>
+        <Value>0.01</Value>
+        <Value>1</Value>
+        <Value>10</Value>
+        <Value>1000</Value>
+        <Value>1000000</Value>
+    </Unit>
+    <Unit>
+        <Identifier>energy</Identifier>
+        <UnitName lang="DE">Energie</UnitName>
+        <BaseUnitName lang="DE">Joule</BaseUnitName>
+        <UnitName lang="ENG">Energy</UnitName>
+        <BaseUnitName lang="ENG">Joule</BaseUnitName>
+        <SingleUnit>J</SingleUnit>
+        <SingleUnit>kJ</SingleUnit>
+        <SingleUnit>MJ</SingleUnit>
+        <Value>1</Value>
+        <Value>1000</Value>
+        <Value>1000000</Value>
+    </Unit>
+    <Unit>
+        <Identifier>impulse</Identifier>
+        <SingleUnit>N·s</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>feder</Identifier>
+        <SingleUnit>N/m</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>molmass</Identifier>
+        <SingleUnit>g/mol</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>molvol</Identifier>
+        <SingleUnit>l/mol</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>concentration</Identifier>
+        <SingleUnit>mol/l</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>stoffmenge</Identifier>
+        <UnitName lang="DE">Stoffmenge</UnitName>
+        <BaseUnitName lang="DE">Mol</BaseUnitName>
+        <UnitName lang="ENG">Amount of substance</UnitName>
+        <BaseUnitName lang="ENG">Mol</BaseUnitName>
+        <SingleUnit>mmol</SingleUnit>
+        <SingleUnit>mol</SingleUnit>
+        <SingleUnit>kmol</SingleUnit>
+        <Value>0.001</Value>
+        <Value>1</Value>
+        <Value>1000</Value>
+    </Unit>
+    <Unit>
+        <Identifier>winkelgeschwindigkeit</Identifier>
+        <SingleUnit>rad/s</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>avogadro</Identifier>
+        <SingleUnit>mol⁻¹</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>work</Identifier>
+        <SingleUnit>N·m</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>power</Identifier>
+        <UnitName lang="DE">Leistung</UnitName>
+        <BaseUnitName lang="DE">Watt</BaseUnitName>
+        <UnitName lang="ENG">Power</UnitName>
+        <BaseUnitName lang="ENG">Watt</BaseUnitName>
+        <SingleUnit>mW</SingleUnit>
+        <SingleUnit>W</SingleUnit>
+        <SingleUnit>kW</SingleUnit>
+        <SingleUnit>MW</SingleUnit>
+        <Value>0.001</Value>
+        <Value>1</Value>
+        <Value>1000</Value>
+        <Value>1000000</Value>
+    </Unit>
+    <Unit>
+        <Identifier>pressure</Identifier>
+        <UnitName lang="DE">Druck</UnitName>
+        <BaseUnitName lang="DE">Pascal</BaseUnitName>
+        <UnitName lang="ENG">Pressure</UnitName>
+        <BaseUnitName lang="ENG">Pascal</BaseUnitName>
+        <SingleUnit>Pa</SingleUnit>
+        <SingleUnit>hPa</SingleUnit>
+        <SingleUnit>KPa</SingleUnit>
+        <SingleUnit>bar</SingleUnit>
+        <Value>1</Value>
+        <Value>100</Value>
+        <Value>1000</Value>
+        <Value>100000</Value>
+    </Unit>
+    <Unit>
+        <Identifier>stromstaerke</Identifier>
+        <UnitName lang="DE">Stromstärke</UnitName>
+        <BaseUnitName lang="DE">Ampere</BaseUnitName>
+        <UnitName lang="ENG">Amperage</UnitName>
+        <BaseUnitName lang="ENG">Ampere</BaseUnitName>
+        <SingleUnit>mA</SingleUnit>
+        <SingleUnit>A</SingleUnit>
+        <SingleUnit>kA</SingleUnit>
+        <Value>0.001</Value>
+        <Value>1</Value>
+        <Value>1000</Value>
+    </Unit>
+    <Unit>
+        <Identifier>voltage</Identifier>
+        <UnitName lang="DE">Spannung</UnitName>
+        <BaseUnitName lang="DE">Volt</BaseUnitName>
+        <UnitName lang="ENG">Voltage</UnitName>
+        <BaseUnitName lang="ENG">Volt</BaseUnitName>
+        <SingleUnit>mV</SingleUnit>
+        <SingleUnit>V</SingleUnit>
+        <SingleUnit>kV</SingleUnit>
+        <SingleUnit>MV</SingleUnit>
+        <Value>0.001</Value>
+        <Value>1</Value>
+        <Value>1000</Value>
+        <Value>1000000</Value>
+    </Unit>
+    <Unit>
+        <Identifier>charge</Identifier>
+        <SingleUnit>C</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>frequency</Identifier>
+        <UnitName lang="DE">Frequenz</UnitName>
+        <BaseUnitName lang="DE">Hertz</BaseUnitName>
+        <UnitName lang="ENG">Frequency</UnitName>
+        <BaseUnitName lang="ENG">Hertz</BaseUnitName>
+        <SingleUnit>Hz</SingleUnit>
+        <SingleUnit>kHz</SingleUnit>
+        <SingleUnit>MHz</SingleUnit>
+        <Value>1</Value>
+        <Value>1000</Value>
+        <Value>1000000</Value>
+    </Unit>
+    <Unit>
+        <Identifier>density</Identifier>
+        <SingleUnit>kg/m³</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>degree</Identifier>
+        <SingleUnit>°</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>radiant</Identifier>
+        <SingleUnit>rad</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>gravi</Identifier>
+        <SingleUnit>m³/(kg·s²)</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>light</Identifier>
+        <SingleUnit>m/s</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>waermecap</Identifier>
+        <UnitName lang="DE">Wärmekapazität</UnitName>
+        <BaseUnitName lang="DE">Joule pro Kilogramm mal Kelvin</BaseUnitName>
+        <UnitName lang="ENG">Heat capacity</UnitName>
+        <BaseUnitName lang="ENG">Joules per Kilogram times Kelvin</BaseUnitName>
+        <SingleUnit>J/(kg·K)</SingleUnit>
+        <SingleUnit>kJ/(kg·K)</SingleUnit>
+        <SingleUnit>MJ/(kg·K)</SingleUnit>
+        <Value>1</Value>
+        <Value>1000</Value>
+        <Value>1000000</Value>
+    </Unit>
+    <Unit>
+        <Identifier>temperature</Identifier>
+        <SingleUnit>K</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>celsius</Identifier>
+        <SingleUnit>°C</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>ohm</Identifier>
+        <SingleUnit>Ω</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>farad</Identifier>
+        <SingleUnit>F</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>siemens</Identifier>
+        <SingleUnit>S</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>reaction</Identifier>
+        <SingleUnit>mol/(l·s)</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>leitfaehigkeit</Identifier>
+        <SingleUnit>S/m</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>resistance_spec</Identifier>
+        <SingleUnit>Ω·m</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>burn_heat</Identifier>
+        <SingleUnit>MJ</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>heat_value</Identifier>
+        <SingleUnit>MJ/kg</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>schall</Identifier>
+        <SingleUnit>m/s</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>planck</Identifier>
+        <SingleUnit>Js</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>faraday</Identifier>
+        <SingleUnit>C/mol</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>luminosity</Identifier>
+        <SingleUnit>J/s</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>gasconst</Identifier>
+        <SingleUnit>J/(K·mol)</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>boltzmann</Identifier>
+        <SingleUnit>J/K</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>particlemass</Identifier>
+        <SingleUnit>kg</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>wichte</Identifier>
+        <UnitName lang="DE">Wichte</UnitName>
+        <BaseUnitName lang="DE">Newton pro Kubikmeter</BaseUnitName>
+        <UnitName lang="ENG">Weight</UnitName>
+        <BaseUnitName lang="ENG">Newton per cubic meter</BaseUnitName>
+        <SingleUnit>cN/m³</SingleUnit>
+        <SingleUnit>N/m³</SingleUnit>
+        <SingleUnit>kN/m³</SingleUnit>
+        <Value>0.01</Value>
+        <Value>1</Value>
+        <Value>1000</Value>
+    </Unit>
+    <Unit>
+        <Identifier>tempvalue</Identifier>
+        <SingleUnit>1/K</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>specflow</Identifier>
+        <SingleUnit>m/(Ω·mm²)</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>elecfieldI</Identifier>
+        <SingleUnit>N/C</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>elecfieldII</Identifier>
+        <SingleUnit>V/m</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>magflow</Identifier>
+        <SingleUnit>N/(A·m)</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>spectemp</Identifier>
+        <SingleUnit>J/kg</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>gravstrength</Identifier>
+        <SingleUnit>N/kg</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>activity</Identifier>
+        <SingleUnit>Bq</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>zerfallsconst</Identifier>
+        <SingleUnit>1/s</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>elektro</Identifier>
+        <UnitName lang="DE">Energie in Elektronenvolt</UnitName>
+        <BaseUnitName lang="DE">Elektronenvolt</BaseUnitName>
+        <UnitName lang="ENG">Energy in electron volts</UnitName>
+        <BaseUnitName lang="ENG">Electron volt</BaseUnitName>
+        <SingleUnit>meV</SingleUnit>
+        <SingleUnit>eV</SingleUnit>
+        <SingleUnit>keV</SingleUnit>
+        <SingleUnit>MeV</SingleUnit>
+        <SingleUnit>GeV</SingleUnit>
+        <Value>0.001</Value>
+        <Value>1</Value>
+        <Value>1000</Value>
+        <Value>1000000</Value>
+        <Value>1000000000</Value>
+    </Unit>
+    <Unit>
+        <Identifier>percent</Identifier>
+        <SingleUnit>%</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>volt_meter</Identifier>
+        <SingleUnit>V/m</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>columb_meter</Identifier>
+        <SingleUnit>C/m</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>feldstaerke</Identifier>
+        <SingleUnit>C/m</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>kelvin_watt</Identifier>
+        <UnitName lang="DE">Wärmewiderstand</UnitName>
+        <BaseUnitName lang="DE">Kelvin durch Watt</BaseUnitName>
+        <UnitName lang="ENG">Heat resistance</UnitName>
+        <BaseUnitName lang="ENG">Kelvin per Watt</BaseUnitName>
+        <SingleUnit>K/kW</SingleUnit>
+        <SingleUnit>cK/W</SingleUnit>
+        <SingleUnit>dK/W</SingleUnit>
+        <SingleUnit>K/W</SingleUnit>
+        <SingleUnit>daK/W</SingleUnit>
+        <SingleUnit>K/cW</SingleUnit>
+        <SingleUnit>K/mV</SingleUnit>
+        <Value>0.001</Value>
+        <Value>0.01</Value>
+        <Value>0.1</Value>
+        <Value>1</Value>
+        <Value>10</Value>
+        <Value>100</Value>
+        <Value>1000</Value>
+    </Unit>
+    <Unit>
+        <Identifier>viskos</Identifier>
+        <SingleUnit>Pa·s</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>elconst</Identifier>
+        <SingleUnit>(A·s)/(V·m)</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>zentralbeschleunigung</Identifier>
+        <SingleUnit>rad/s²</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>velocitym</Identifier>
+        <SingleUnit>m/s</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+    <Unit>
+        <Identifier>velocitykm</Identifier>
+        <SingleUnit>km/h</SingleUnit>
+        <Value>1</Value>
+    </Unit>
+
+</Units>

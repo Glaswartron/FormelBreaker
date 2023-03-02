@@ -1,0 +1,1323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+    <!--
+        © Benedikt Wille, Rene Jokiel 2018
+        Urheber: Benedikt Wille, Rene Jokiel
+
+        Dieses Dokument ist gemäß deutschem Urheberschutz geschützt
+
+        Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen
+        des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers
+
+        Die Vervielfältigung oder Neu-Umsetzung (auch einzelner Komponenten) der Software auf
+        Basis der Software wird Dritten nicht gestattet
+    -->
+
+<Formeln>
+
+    <Formel>
+        <Category>bewegung1D</Category>
+        <ButtonText lang="DE">Gleichförmige Bewegung</ButtonText>
+        <ButtonText lang="ENG">﻿Uniform motion</ButtonText>
+        <Preview lang="DE">v = s ÷ t</Preview>
+        <Umformung>s / t</Umformung>
+        <Umformung>v * t</Umformung>
+        <Umformung>s / v</Umformung>
+        <LaTeX lang="DE">$$v = \frac{s}{t}$$</LaTeX>
+        <LaTeX lang="DE">$$s = v \cdot t$$</LaTeX>
+        <LaTeX lang="DE">$$t= \frac{s}{v}$$</LaTeX>
+        <Variable>velocity</Variable>
+        <Variable>distance</Variable>
+        <Variable>time</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>bewegung1D</Category>
+        <ButtonText lang="DE">Geschwindigkeit und Zeit bei beschleunigter Bewegung</ButtonText>
+        <ButtonText lang="ENG">Velocity and time during accelerated motion</ButtonText>
+        <Preview lang="DE">v = a · t</Preview>
+        <Umformung>a * t</Umformung>
+        <Umformung>v / t</Umformung>
+        <Umformung>v / a</Umformung>
+        <LaTeX lang="DE">$$v = a \cdot t$$</LaTeX>
+        <LaTeX lang="DE">$$a = \frac{v}{t}$$</LaTeX>
+        <LaTeX lang="DE">$$t = \frac{v}{a}$$</LaTeX>
+        <Variable>velocity</Variable>
+        <Variable>acceleration</Variable>
+        <Variable>time</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>bewegung1D</Category>
+        <ButtonText lang="DE">Strecke bei beschleunigter Bewegung</ButtonText>
+        <ButtonText lang="ENG">Distance during accelerated motion</ButtonText>
+        <Preview lang="DE">s = 0,5 · a · t²</Preview>
+        <Umformung>(1/2) * a * (t^2)</Umformung>
+        <Umformung>2 * (s / (t^2))</Umformung>
+        <Umformung>sqrt(s / ((1/2) * a))</Umformung>
+        <LaTeX lang="DE">$$s = \frac{1}{2} \cdot a \cdot t^2$$</LaTeX>
+        <LaTeX lang="DE">$$a = 2 \cdot \frac{s}{t^2}$$</LaTeX>
+        <LaTeX lang="DE">$$t = \sqrt{\frac{s}{\frac{1}{2} \cdot a}}$$</LaTeX>
+        <Variable>distance</Variable>
+        <Variable>acceleration</Variable>
+        <Variable>time</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>bewegung1D</Category>
+        <ButtonText lang="DE">Geschwindigkeit und Strecke bei beschleunigter Bewegung</ButtonText>
+        <ButtonText lang="ENG">Velocity and distance during accelerated motion</ButtonText>
+        <Preview lang="DE">v² = √(2 · a · s)</Preview>
+        <Umformung>sqrt(2 * a * s)</Umformung>
+        <Umformung>(1/2) * ((v^2) / s)</Umformung>
+        <Umformung>(v^2) / (2 * a)</Umformung>
+        <LaTeX lang="DE">$$v = \sqrt{2 \cdot a \cdot s}$$</LaTeX>
+        <LaTeX lang="DE">$$a = \frac{v^2}{2 \cdot s}$$</LaTeX>
+        <LaTeX lang="DE">$$s = \frac{v^2}{2 \cdot a}$$</LaTeX>
+        <Variable>velocity</Variable>
+        <Variable>acceleration</Variable>
+        <Variable>distance</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>bewegung1D</Category>
+        <ButtonText lang="DE">Impuls</ButtonText>
+        <ButtonText lang="ENG">Impulse</ButtonText>
+        <Preview lang="DE">p = m · v</Preview>
+        <Umformung>m * v</Umformung>
+        <Umformung>p / v</Umformung>
+        <Umformung>p / m</Umformung>
+        <LaTeX lang="DE">$$p = m \cdot v$$</LaTeX>
+        <LaTeX lang="DE">$$m = \frac{p}{v}$$</LaTeX>
+        <LaTeX lang="DE">$$v = \frac{p}{m}$$</LaTeX>
+        <Variable>impulse</Variable>
+        <Variable>mass</Variable>
+        <Variable>velocity</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>bewegung1D</Category>
+        <ButtonText lang="DE">Bewegungsgleichung für harmonische Schwingungen</ButtonText>
+        <ButtonText lang="ENG">Equation of motion for harmonic oscillations</ButtonText>
+        <Preview lang="DE">y = A · sin(2π/T · t)</Preview>
+        <Umformung>A * sin(((2 * pi) / T) * t)</Umformung>
+        <Umformung>(sin(((2 * pi) / T) * t)) / y</Umformung>
+        <Umformung>(arsin(y / A)) / (2 * pi * t)</Umformung>
+        <Umformung>(T * arsin(y / A)) / (2 * pi)</Umformung>
+        <LaTeX lang="DE">$$y = A \cdot \sin(\frac{2 \cdot \pi}{T} \cdot t)$$</LaTeX>
+        <LaTeX lang="DE">$$A = \frac{\sin(\frac{2 \cdot \pi}{T} \cdot t)}{y}$$</LaTeX>
+        <LaTeX lang="DE">$$T = \frac{\arcsin(\frac{y}{A})}{2 \cdot \pi \cdot t}$$</LaTeX>
+        <LaTeX lang="DE">$$t = \frac{T \cdot \arcsin(\frac{y}{A})}{2 \cdot \pi}$$</LaTeX>
+        <Variable>auslenkung</Variable>
+        <Variable>amplitude</Variable>
+        <Variable>periodendauer</Variable>
+        <Variable>time</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>force</Category>
+        <ButtonText lang="DE">Kraft nach Newton</ButtonText>
+        <ButtonText lang="ENG">Force according to Newton</ButtonText>
+        <Preview lang="DE">F = m · a</Preview>
+        <Umformung>m * a</Umformung>
+        <Umformung>F / a</Umformung>
+        <Umformung>F / m</Umformung>
+        <LaTeX lang="DE">$$F = m \cdot a$$</LaTeX>
+        <LaTeX lang="DE">$$m = \frac{F}{a}$$</LaTeX>
+        <LaTeX lang="DE">$$a = \frac{F}{m}$$</LaTeX>
+        <Variable>force</Variable>
+        <Variable>mass</Variable>
+        <Variable>acceleration</Variable>
+    </Formel>
+
+
+    <Formel>
+        <Category>force</Category>
+        <ButtonText lang="DE">Gewichtskraft</ButtonText>
+        <ButtonText lang="ENG">Weight force</ButtonText>
+        <Preview lang="DE">F = m · g</Preview>
+        <Umformung>m * g</Umformung>
+        <Umformung>F / g</Umformung>
+        <Umformung>F / m</Umformung>
+        <LaTeX lang="DE">$$F = m \cdot g$$</LaTeX>
+        <LaTeX lang="DE">$$m = \frac{F}{g}$$</LaTeX>
+        <LaTeX lang="DE">$$g = \frac{F}{m}$$</LaTeX>
+        <Variable>force_gewicht</Variable>
+        <Variable>mass</Variable>
+        <Variable>gvariable</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>force</Category>
+        <ButtonText lang="DE">Hookesches Gesetz</ButtonText>
+        <ButtonText lang="ENG">Law of Hooke</ButtonText>
+        <Preview lang="DE">F = D · s</Preview>
+        <Umformung>D * s</Umformung>
+        <Umformung>F / s</Umformung>
+        <Umformung>F / D</Umformung>
+        <LaTeX lang="DE">$$F = D \cdot s$$</LaTeX>
+        <LaTeX lang="DE">$$D = \frac{F}{s}$$</LaTeX>
+        <LaTeX lang="DE">$$s = \frac{F}{D}$$</LaTeX>
+        <Variable>force_feder</Variable>
+        <Variable>federconst</Variable>
+        <Variable>distance</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>force</Category>
+        <ButtonText lang="DE">Zentripetalkraft</ButtonText>
+        <ButtonText lang="ENG">Centripetal force</ButtonText>
+        <Preview lang="DE">F = m · ω² · r</Preview>
+        <Umformung>m * (o^2) * r</Umformung>
+        <Umformung>F / ((o^2) * r)</Umformung>
+        <Umformung>sqrt(F / (m * r))</Umformung>
+        <Umformung>F / (m * (o^2))</Umformung>
+        <LaTeX lang="DE">$$F = m \cdot \omega^2 \cdot r$$</LaTeX>
+        <LaTeX lang="DE">$$m = \frac{F}{\omega^2 \cdot r}$$</LaTeX>
+        <LaTeX lang="DE">$$\omega = \sqrt{\frac{F}{m \cdot r}}$$</LaTeX>
+        <LaTeX lang="DE">$$r = \frac{F}{m \cdot \omega^2}$$</LaTeX>
+        <Variable>force_zentripetal</Variable>
+        <Variable>mass</Variable>
+        <Variable>winkelgeschwindigkeit</Variable>
+        <Variable>radius_physics</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>force</Category>
+        <ButtonText lang="DE">Gleitreibungskraft</ButtonText>
+        <ButtonText lang="ENG">Sliding friction force</ButtonText>
+        <Preview lang="DE">R = u · F</Preview>
+        <Umformung>u * F</Umformung>
+        <Umformung>R / F</Umformung>
+        <Umformung>R / u</Umformung>
+        <LaTeX lang="DE">$$F_R =  \mu \cdot F$$</LaTeX>
+        <LaTeX lang="DE">$$\mu = \frac{F_R}{F}$$</LaTeX>
+        <LaTeX lang="DE">$$F =  \frac{F_R}{\mu'}$$</LaTeX>
+        <Variable>force_friction_slide</Variable>
+        <Variable>gleitreibung_zahl</Variable>
+        <Variable>force_normal</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>force</Category>
+        <ButtonText lang="DE">Haftreibungskraft</ButtonText>
+        <ButtonText lang="ENG">Static friction force</ButtonText>
+        <Preview lang="DE">FR = μ · F</Preview>
+        <Umformung>u * F</Umformung>
+        <Umformung>R / F</Umformung>
+        <Umformung>R / u</Umformung>
+        <LaTeX lang="DE">$$F_{R'} =  \mu' \cdot F$$</LaTeX>
+        <LaTeX lang="DE">$$\mu' = \frac{F_{R'}}{F}$$</LaTeX>
+        <LaTeX lang="DE">$$F =  \frac{F_{R'}}{\mu'}$$</LaTeX>
+        <Variable>force_friction_static</Variable>
+        <Variable>haftreibung_zahl</Variable>
+        <Variable>force</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>energy</Category>
+        <ButtonText lang="DE">Kinetische Energie</ButtonText>
+        <ButtonText lang="ENG">Kinetic Energy</ButtonText>
+        <Preview lang="DE">E = 0,5 · m · v²</Preview>
+        <Umformung>(1/2) * m * (v^2)</Umformung>
+        <Umformung>2 * (E / (v^2))</Umformung>
+        <Umformung>sqrt(E / ((1/2) * m))</Umformung>
+        <LaTeX lang="DE">$$E = \frac{1}{2} \cdot m \cdot v^2$$</LaTeX>
+        <LaTeX lang="DE">$$m = 2 \cdot \frac{E}{v^2}$$</LaTeX>
+        <LaTeX lang="DE">$$v = \sqrt{\frac{E}{\frac{1}{2} \cdot m}}$$</LaTeX>
+        <Variable>energy_kinetic</Variable>
+        <Variable>mass</Variable>
+        <Variable>velocity</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>energy</Category>
+        <ButtonText lang="DE">Spannenergie</ButtonText>
+        <ButtonText lang="ENG">Clamping energy</ButtonText>
+        <Preview lang="DE">E = 0,5 · D · s² </Preview>
+        <Umformung>(1/2) * D * (s^2)</Umformung>
+        <Umformung>2 * (E / (s^2))</Umformung>
+        <Umformung>sqrt(E / ((1/2) * D))</Umformung>
+        <LaTeX lang="DE">$$E = \frac{1}{2} \cdot D \cdot s^2 $$</LaTeX>
+        <LaTeX lang="DE">$$D = 2 \cdot \frac{E}{s^2} $$</LaTeX>
+        <LaTeX lang="DE">$$s = \sqrt{\frac{E}{\frac{1}{2} \cdot D}}$$</LaTeX>
+        <Variable>energy_spann</Variable>
+        <Variable>federconst</Variable>
+        <Variable>distance</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>energy</Category>
+        <ButtonText lang="DE">Potentielle Energie</ButtonText>
+        <ButtonText lang="ENG">Potential energy</ButtonText>
+        <Preview lang="DE">E = m · g · h</Preview>
+        <Umformung>m * g * h</Umformung>
+        <Umformung>E / (g * h)</Umformung>
+        <Umformung>E / (m * h)</Umformung>
+        <Umformung>E / (m * g)</Umformung>
+        <LaTeX lang="DE">$$E = m \cdot g \cdot h$$</LaTeX>
+        <LaTeX lang="DE">$$m = \frac{E}{g \cdot h}$$</LaTeX>
+        <LaTeX lang="DE">$$g = \frac{E}{m \cdot h}$$</LaTeX>
+        <LaTeX lang="DE">$$h = \frac{E}{m \cdot g}$$</LaTeX>
+        <Variable>energy_pot</Variable>
+        <Variable>mass</Variable>
+        <Variable>gvariable</Variable>
+        <Variable>height_physics</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>energy</Category>
+        <ButtonText lang="DE">Einsteins Formel</ButtonText>
+        <ButtonText lang="ENG">Einstein's formula</ButtonText>
+        <Preview lang="DE">E = m · c²</Preview>
+        <Umformung>m * (c^2)</Umformung>
+        <Umformung>E / (c^2)</Umformung>
+        <LaTeX lang="DE">$$E = m \cdot c^2$$</LaTeX>
+        <LaTeX lang="DE">$$m = \frac{E}{c^2}$$</LaTeX>
+        <Variable>energy</Variable>
+        <Variable>mass</Variable>
+        <Variable>light</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>bewegung2D</Category>
+        <ButtonText lang="DE">Strecke x beim waagerechten Wurf</ButtonText>
+        <ButtonText lang="ENG">Distance x during a horzionzal throw</ButtonText>
+        <Preview lang="DE">x = vₓ · t</Preview>
+        <Umformung>v * t</Umformung>
+        <Umformung>x / t</Umformung>
+        <Umformung>x / v</Umformung>
+        <LaTeX lang="DE">$$x = v_x \cdot t$$</LaTeX>
+        <LaTeX lang="DE">$$v_x = \frac{x}{t}$$</LaTeX>
+        <LaTeX lang="DE">$$t = \frac{x}{v_x}$$</LaTeX>
+        <Variable>distance_x</Variable>
+        <Variable>velocity_x</Variable>
+        <Variable>time</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>bewegung2D</Category>
+        <ButtonText lang="DE">Strecke y beim waagerechten Wurf</ButtonText>
+        <ButtonText lang="ENG">Distance y during a horizontal throw</ButtonText>
+        <Preview lang="DE">y = 0,5 · (-g) · t²</Preview>
+        <Umformung>-(g / 2) * (t^2)</Umformung>
+        <Umformung>-2 * (y / (t^2))</Umformung>
+        <Umformung>sqrt(-(2 / g) * y)</Umformung>
+        <LaTeX lang="DE">$$y = - \frac{g}{2} \cdot t^2$$</LaTeX>
+        <LaTeX lang="DE">$$g = -2 \cdot \frac{y}{t^2}$$</LaTeX>
+        <LaTeX lang="DE">$$t = \sqrt{- \frac{2}{g} \cdot y}$$</LaTeX>
+        <Variable>distance_y</Variable>
+        <Variable>gvariable</Variable>
+        <Variable>time</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>bewegung2D</Category>
+        <ButtonText lang="DE">Winkelgeschwindigkeit</ButtonText>
+        <ButtonText lang="ENG">Angular velocity</ButtonText>
+        <Preview lang="DE">ω = 2π ÷ T</Preview>
+        <Umformung>(2 * pi) / T</Umformung>
+        <Umformung>(2 * pi) / o</Umformung>
+        <LaTeX lang="DE">$$\omega = \frac{2 \cdot \pi}{T}$$</LaTeX>
+        <LaTeX lang="DE">$$T = \frac{2 \cdot \pi}{\omega}$$</LaTeX>
+        <Variable>winkelgeschwindigkeit</Variable>
+        <Variable>umlaufdauer</Variable>
+    </Formel>
+
+
+    <Formel>
+        <Category>bewegung2D</Category>
+        <ButtonText lang="DE">Geschwindigkeit der Kreisbewegung</ButtonText>
+        <ButtonText lang="ENG">Velocity of the angular motion</ButtonText>
+        <Preview lang="DE">v = ω · r</Preview>
+        <Umformung>o * r</Umformung>
+        <Umformung>v / r</Umformung>
+        <Umformung>v / o</Umformung>
+        <LaTeX lang="DE">$$v = \omega \cdot r$$</LaTeX>
+        <LaTeX lang="DE">$$\omega = \frac{v}{r}$$</LaTeX>
+        <LaTeX lang="DE">$$r = \frac{v}{\omega}$$</LaTeX>
+        <Variable>velocity</Variable>
+        <Variable>winkelgeschwindigkeit</Variable>
+        <Variable>radius_physics</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>bewegung2D</Category>
+        <ButtonText lang="DE">Zentralbeschleunigung</ButtonText>
+        <ButtonText lang="ENG">Central acceleration</ButtonText>
+        <Preview lang="DE">az = ω² · r</Preview>
+        <Umformung>(o^2) * r</Umformung>
+        <Umformung>sqrt(a / r)</Umformung>
+        <Umformung>a / (o^2)</Umformung>
+        <LaTeX lang="DE">$$a_z = \omega^2 \cdot r$$</LaTeX>
+        <LaTeX lang="DE">$$\omega = \sqrt{\frac{a_z}{r}}$$</LaTeX>
+        <LaTeX lang="DE">$$r = \frac{a_z}{\omega^2}$$</LaTeX>
+        <Variable>acceleration_zentral</Variable>
+        <Variable>winkelgeschwindigkeit</Variable>
+        <Variable>radius_physics</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>energy</Category>
+        <ButtonText lang="DE">Änderung der inneren Energie</ButtonText>
+        <ButtonText lang="ENG">Change of internal energy</ButtonText>
+        <Preview lang="DE">ΔE = c · m · Δϑ</Preview>
+        <Umformung>c * m * vV</Umformung>
+        <Umformung>vE / (m * vV)</Umformung>
+        <Umformung>vE / (c * vV)</Umformung>
+        <Umformung>vE / (c * m)</Umformung>
+        <LaTeX lang="DE">$$\Delta E_i = c \cdot m \cdot \Delta\vartheta$$</LaTeX>
+        <LaTeX lang="DE">$$c = \frac{\Delta E_i}{m \cdot \Delta\vartheta}$$</LaTeX>
+        <LaTeX lang="DE">$$m = \frac{\Delta E_i}{c \cdot \Delta\vartheta}$$</LaTeX>
+        <LaTeX lang="DE">$$\Delta\vartheta = \frac{\Delta E_i}{c \cdot m}$$</LaTeX>
+        <Variable>energy_innere_change</Variable>
+        <Variable>waermecap</Variable>
+        <Variable>mass</Variable>
+        <Variable>tempdif</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>work.power</Category>
+        <ButtonText lang="DE">Mechanische Arbeit</ButtonText>
+        <ButtonText lang="ENG">Mechanical work</ButtonText>
+        <Preview lang="DE">W = F · s</Preview>
+        <Umformung>F * s</Umformung>
+        <Umformung>W / s</Umformung>
+        <Umformung>W / F</Umformung>
+        <LaTeX lang="DE">$$W = F \cdot s$$</LaTeX>
+        <LaTeX lang="DE">$$F = \frac{W}{s}$$</LaTeX>
+        <LaTeX lang="DE">$$s= \frac{W}{F}$$</LaTeX>
+        <Variable>work_mechanic</Variable>
+        <Variable>force</Variable>
+        <Variable>distance</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>work.power</Category>
+        <ButtonText lang="DE">Elektrische Arbeit</ButtonText>
+        <ButtonText lang="ENG">Electrical work</ButtonText>
+        <Preview lang="DE">W = U · I · t</Preview>
+        <Umformung>U * I * t</Umformung>
+        <Umformung>W / (I * t)</Umformung>
+        <Umformung>W / (U * t)</Umformung>
+        <Umformung>W / (U * I)</Umformung>
+        <LaTeX lang="DE">$$W = U \cdot I \cdot t$$</LaTeX>
+        <LaTeX lang="DE">$$U = \frac{W}{I \cdot t}$$</LaTeX>
+        <LaTeX lang="DE">$$I = \frac{W}{U \cdot t}$$</LaTeX>
+        <LaTeX lang="DE">$$t = \frac{W}{U \cdot I}$$</LaTeX>
+        <Variable>work_electric</Variable>
+        <Variable>voltage</Variable>
+        <Variable>stromstaerke</Variable>
+        <Variable>time</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>work.power</Category>
+        <ButtonText lang="DE">Mechanische Leistung</ButtonText>
+        <ButtonText lang="ENG">Mechanical power</ButtonText>
+        <Preview lang="DE">P = W ÷ t</Preview>
+        <Umformung>W / t</Umformung>
+        <Umformung>P * t</Umformung>
+        <Umformung>W / P</Umformung>
+        <LaTeX lang="DE">$$P = \frac{W}{t}$$</LaTeX>
+        <LaTeX lang="DE">$$W = P \cdot t$$</LaTeX>
+        <LaTeX lang="DE">$$t = \frac{W}{P}$$</LaTeX>
+        <Variable>power_mechanic</Variable>
+        <Variable>work</Variable>
+        <Variable>time</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>work.power</Category>
+        <ButtonText lang="DE">Elektrische Leistung</ButtonText>
+        <ButtonText lang="ENG">Electrical power</ButtonText>
+        <Preview lang="DE">P = U · I</Preview>
+        <Umformung>U * I</Umformung>
+        <Umformung>P / I</Umformung>
+        <Umformung>P / U</Umformung>
+        <LaTeX lang="DE">$$P = U \cdot I$$</LaTeX>
+        <LaTeX lang="DE">$$U = \frac{P}{I}$$</LaTeX>
+        <LaTeX lang="DE">$$I = \frac{P}{U}$$</LaTeX>
+        <Variable>power_electric</Variable>
+        <Variable>voltage</Variable>
+        <Variable>stromstaerke</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>work.power</Category>
+        <ButtonText lang="DE">Wirkungsgrad</ButtonText>
+        <ButtonText lang="ENG">Degree of efficiency</ButtonText>
+        <Preview lang="DE">η = P₁ / P₂</Preview>
+        <Umformung>P1 / P2</Umformung>
+        <Umformung>P2 / p</Umformung>
+        <Umformung>p * P1</Umformung>
+        <LaTeX lang="DE">$$\eta = \frac{P_1}{P_2}$$</LaTeX>
+        <LaTeX lang="DE">$$P_1 = \eta \cdot P_2$$</LaTeX>
+        <LaTeX lang="DE">$$P_2 = \frac{\eta}{P_1}$$</LaTeX>
+        <Variable>wirk_grad</Variable>
+        <Variable>leist_one</Variable>
+        <Variable>leist_two</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>force</Category>
+        <ButtonText lang="DE">Druck</ButtonText>
+        <ButtonText lang="ENG">Pressure</ButtonText>
+        <Preview lang="DE">p = F ÷ A</Preview>
+        <Umformung>F / A</Umformung>
+        <Umformung>p * A</Umformung>
+        <Umformung>F / p</Umformung>
+        <LaTeX lang="DE">$$p = \frac{F}{A}$$</LaTeX>
+        <LaTeX lang="DE">$$F = p \cdot A$$</LaTeX>
+        <LaTeX lang="DE">$$A = \frac{F}{p}$$</LaTeX>
+        <Variable>pressure</Variable>
+        <Variable>force</Variable>
+        <Variable>area</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>force</Category>
+        <ButtonText lang="DE">Dichte</ButtonText>
+        <ButtonText lang="ENG">Density</ButtonText>
+        <Preview lang="DE">ρ = m ÷ V</Preview>
+        <Umformung>m / V</Umformung>
+        <Umformung>p * V</Umformung>
+        <Umformung>m / p</Umformung>
+        <LaTeX lang="DE">$$\rho = \frac{m}{V}$$</LaTeX>
+        <LaTeX lang="DE">$$m = \rho \cdot V$$</LaTeX>
+        <LaTeX lang="DE">$$V = \frac{m}{\rho}$$</LaTeX>
+        <Variable>density</Variable>
+        <Variable>mass</Variable>
+        <Variable>volume</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>force</Category>
+        <ButtonText lang="DE">Normalkraft</ButtonText>
+        <ButtonText lang="ENG">Normal force</ButtonText>
+        <Preview lang="DE">F = m · g · cos(α)</Preview>
+        <Umformung>m * g * cos(a * ((2 * pi) / 360))</Umformung>
+        <Umformung>F / (g * cos(a * ((2 * pi) / 360)))</Umformung>
+        <Umformung>F / (m * cos(a * ((2 * pi) / 360)))</Umformung>
+        <Umformung>(arccos(F / (m * g))) * (360 / (2 * pi))</Umformung>
+        <LaTeX lang="DE">$$F = m \cdot g \cdot \cos{\alpha}$$</LaTeX>
+        <LaTeX lang="DE">$$m = \frac{F}{g \cdot \cos{\alpha}}$$</LaTeX>
+        <LaTeX lang="DE">$$g = \frac{F}{m \cdot \cos{\alpha}}$$</LaTeX>
+        <LaTeX lang="DE">$$\alpha = \arccos{\frac{F}{m \cdot g}}$$</LaTeX>
+        <Variable>force_normal</Variable>
+        <Variable>mass</Variable>
+        <Variable>gvariable</Variable>
+        <Variable>winkel_alpha_steigung</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>force</Category>
+        <ButtonText lang="DE">Hangabtriebskraft</ButtonText>
+        <ButtonText lang="ENG">Downhill force</ButtonText>
+        <Preview lang="DE">F = m · g · sin(α)</Preview>
+        <Umformung>m * g * sin(a * ((2 * pi) / 360))</Umformung>
+        <Umformung>F / (g * sin(a * ((2 * pi) / 360)))</Umformung>
+        <Umformung>F / (m * sin(a * ((2 * pi) / 360)))</Umformung>
+        <Umformung>(arcsin(F / (m * g))) * (360 / (2 * pi))</Umformung>
+        <LaTeX lang="DE">$$F = m \cdot g \cdot \sin{\alpha}$$</LaTeX>
+        <LaTeX lang="DE">$$m = \frac{F}{g \cdot \sin{\alpha}}$$</LaTeX>
+        <LaTeX lang="DE">$$g = \frac{F}{m \cdot \sin{\alpha}}$$</LaTeX>
+        <LaTeX lang="DE">$$\alpha = \arcsin{\frac{F}{m \cdot g}}$$</LaTeX>
+        <Variable>force_hang</Variable>
+        <Variable>mass</Variable>
+        <Variable>gvariable</Variable>
+        <Variable>winkel_alpha_steigung</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>elec</Category>
+        <ButtonText lang="DE">Ohmsches Gesetz</ButtonText>
+        <ButtonText lang="ENG">Ohm's law</ButtonText>
+        <Preview lang="DE">R = U ÷ I</Preview>
+        <Umformung>U / I</Umformung>
+        <Umformung>R * I</Umformung>
+        <Umformung>U / R</Umformung>
+        <LaTeX lang="DE">$$R = \frac{U}{I}$$</LaTeX>
+        <LaTeX lang="DE">$$U = R \cdot I$$</LaTeX>
+        <LaTeX lang="DE">$$I= \frac{U}{R}$$</LaTeX>
+        <Variable>resistance</Variable>
+        <Variable>voltage</Variable>
+        <Variable>stromstaerke</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>elec</Category>
+        <ButtonText lang="DE">Stromstärke aus Ladungsänderung und Zeit</ButtonText>
+        <ButtonText lang="ENG">Amperage from change of charge and time</ButtonText>
+        <Preview lang="DE">I = Q ÷ t</Preview>
+        <Umformung>Q / t</Umformung>
+        <Umformung>I * t</Umformung>
+        <Umformung>Q / I</Umformung>
+        <LaTeX lang="DE">$$I = \frac{Q}{t}$$</LaTeX>
+        <LaTeX lang="DE">$$Q = I \cdot t$$</LaTeX>
+        <LaTeX lang="DE">$$t = \frac{Q}{I}$$</LaTeX>
+        <Variable>stromstaerke</Variable>
+        <Variable>ladung_bewegt</Variable>
+        <Variable>time</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>elec</Category>
+        <ButtonText lang="DE">Spannung</ButtonText>
+        <ButtonText lang="ENG">Voltage in the AC circuit</ButtonText>
+        <Preview lang="DE">U = W ÷ Q</Preview>
+        <Umformung>W / Q</Umformung>
+        <Umformung>U * Q</Umformung>
+        <Umformung>W / U</Umformung>
+        <LaTeX lang="DE">$$U = \frac{W}{Q}$$</LaTeX>
+        <LaTeX lang="DE">$$W = U \cdot Q$$</LaTeX>
+        <LaTeX lang="DE">$$Q = \frac{W}{U} $$</LaTeX>
+        <Variable>voltage</Variable>
+        <Variable>work_electric</Variable>
+        <Variable>ladung_bewegt</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>elec</Category>
+        <ButtonText lang="DE">Kapazität eines Kondensators</ButtonText>
+        <ButtonText lang="ENG">Capacity of a condensator</ButtonText>
+        <Preview lang="DE">C = Q ÷ U</Preview>
+        <Umformung>Q / U</Umformung>
+        <Umformung>G * U</Umformung>
+        <Umformung>G / Q</Umformung>
+        <LaTeX lang="DE">$$C = \frac{Q}{U}$$</LaTeX>
+        <LaTeX lang="DE">$$Q = C \cdot U$$</LaTeX>
+        <LaTeX lang="DE">$$U = \frac{C}{Q}$$</LaTeX>
+        <Variable>capacity</Variable>
+        <Variable>charge_kondensator</Variable>
+        <Variable>voltage_kondensator</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>elec</Category>
+        <ButtonText lang="DE">Energie im Kondensator</ButtonText>
+        <ButtonText lang="ENG">Energy inside a condensator</ButtonText>
+        <Preview lang="DE">W = 0,5 ⋅ C ⋅ U²</Preview>
+        <Umformung>(1/2) * C * (U^2)</Umformung>
+        <Umformung>W / ((1/2) * (U^2))</Umformung>
+        <Umformung>sqrt(W / ((1/2) * C))</Umformung>
+        <LaTeX lang="DE">$$W = \frac{1}{2} \cdot C \cdot U^2$$</LaTeX>
+        <LaTeX lang="DE">$$C = \frac{W}{\frac{1}{2} \cdot U^2}$$</LaTeX>
+        <LaTeX lang="DE">$$U = \sqrt{\frac{W}{\frac{1}{2} \cdot C}}$$</LaTeX>
+        <Variable>energy_kon</Variable>
+        <Variable>capacity</Variable>
+        <Variable>voltage_kon</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>elec</Category>
+        <ButtonText lang="DE">Anfangsladestrom eines Kondensators</ButtonText>
+        <ButtonText lang="ENG">Initial loading current of a condensator</ButtonText>
+        <Preview lang="DE">I = U ÷ R</Preview>
+        <Umformung>U / R</Umformung>
+        <Umformung>I * R</Umformung>
+        <Umformung>I / U</Umformung>
+        <LaTeX lang="DE">$$I = \frac{U}{R}$$</LaTeX>
+        <LaTeX lang="DE">$$U = I \cdot R$$</LaTeX>
+        <LaTeX lang="DE">$$R = \frac{I}{U}$$</LaTeX>
+        <Variable>amperage_kon</Variable>
+        <Variable>voltage_kondensator</Variable>
+        <Variable>resistance</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>elec</Category>
+        <ButtonText lang="DE">Spannung im Wechselstromkreis</ButtonText>
+        <ButtonText lang="ENG">Voltage in the AC circuit</ButtonText>
+        <Preview lang="DE">U = Uₘₐₓ ÷ √2</Preview>
+        <Umformung>Um / sqrt(2)</Umformung>
+        <Umformung>U * sqrt(2)</Umformung>
+        <LaTeX lang="DE">$$U = \frac{U_{max}}{\sqrt{2}}$$</LaTeX>
+        <LaTeX lang="DE">$$U_{max} = U \cdot \sqrt{2}$$</LaTeX>
+        <Variable>voltage</Variable>
+        <Variable>voltage_max</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>elec</Category>
+        <ButtonText lang="DE">Stromstärke im Wechselstromkreis</ButtonText>
+        <ButtonText lang="ENG">Amperage in the AC circuit</ButtonText>
+        <Preview lang="DE">I = Iₘₐₓ ÷ √2</Preview>
+        <Umformung>Im / sqrt(2)</Umformung>
+        <Umformung>I * sqrt(2)</Umformung>
+        <LaTeX lang="DE">$$I = \frac{I_{max}}{\sqrt{2}}$$</LaTeX>
+        <LaTeX lang="DE">$$I_{max} = I \cdot \sqrt{2}$$</LaTeX>
+        <Variable>stromstaerke</Variable>
+        <Variable>stromstaerke_max</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>elec</Category>
+        <ButtonText lang="DE">Elektrischer Leitwert</ButtonText>
+        <ButtonText lang="ENG">Electric conductance</ButtonText>
+        <Preview lang="DE">G = 1 ÷ R</Preview>
+        <Umformung>1 / R</Umformung>
+        <Umformung>1 / G</Umformung>
+        <LaTeX lang="DE">$$G = \frac{1}{R}$$</LaTeX>
+        <LaTeX lang="DE">$$R = \frac{1}{G}$$</LaTeX>
+        <Variable>leitwert</Variable>
+        <Variable>resistance</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>elec</Category>
+        <ButtonText lang="DE">Elektrischer Leitwert aus Stromstärke und Spannung</ButtonText>
+        <ButtonText lang="ENG">Electric conductance from amperage and voltage</ButtonText>
+        <Preview lang="DE">G = I ÷ U</Preview>
+        <Umformung>I / U</Umformung>
+        <Umformung>G * U</Umformung>
+        <Umformung>I / G</Umformung>
+        <LaTeX lang="DE">$$G = \frac{I}{U}$$</LaTeX>
+        <LaTeX lang="DE">$$I = \frac{G}{U}$$</LaTeX>
+        <LaTeX lang="DE">$$U = \frac{I}{G}$$</LaTeX>
+        <Variable>leitwert</Variable>
+        <Variable>stromstaerke</Variable>
+        <Variable>voltage</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>elec</Category>
+        <ButtonText lang="DE">Elektrische Leitfähigkeit</ButtonText>
+        <ButtonText lang="ENG">Electric conductivity</ButtonText>
+        <Preview lang="DE">σ = 1 ÷ ρ</Preview>
+        <Umformung>1 / p</Umformung>
+        <Umformung>1 / o</Umformung>
+        <LaTeX lang="DE">$$\sigma = \frac{1}{\rho}$$</LaTeX>
+        <LaTeX lang="DE">$$\rho = \frac{1}{\sigma}$$</LaTeX>
+        <Variable>leitfaehigkeit</Variable>
+        <Variable>resistance_spezifisch</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>wave</Category>
+        <ButtonText lang="DE">Frequenz und Periodendauer</ButtonText>
+        <ButtonText lang="ENG">Frequency and period</ButtonText>
+        <Preview lang="DE">f = 1 / T</Preview>
+        <Umformung>1/T</Umformung>
+        <Umformung>1/f</Umformung>
+        <LaTeX lang="DE">$$f = \frac{1}{T}$$</LaTeX>
+        <LaTeX lang="DE">$$T = \frac{1}{f}$$</LaTeX>
+        <Variable>frequency</Variable>
+        <Variable>periodendauer</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>force</Category>
+        <ButtonText lang="DE">Newton'sches Gravitationsgesetz</ButtonText>
+        <ButtonText lang="ENG">Newton's law of universal gravitation</ButtonText>
+        <Preview lang="DE">F = G · (m₁ · m₂) ÷ r²</Preview>
+        <Umformung>G * ((m1 * m2) / (r^2))</Umformung>
+        <Umformung>(F * (r^2)) / (G * m2)</Umformung>
+        <Umformung>(F * (r^2)) / (G * m1)</Umformung>
+        <Umformung>sqrt(F / (G * m1 * m2))</Umformung>
+        <LaTeX lang="DE">$$F = G \cdot \frac{m_1 \cdot m_2}{r^2}$$</LaTeX>
+        <LaTeX lang="DE">$$m_1 = \frac{F \cdot r^2}{G \cdot m_2}$$</LaTeX>
+        <LaTeX lang="DE">$$m_2 = \frac{F \cdot r^2}{G \cdot m_1}$$</LaTeX>
+        <LaTeX lang="DE">$$r = \sqrt{\frac{F}{G \cdot m_1 \cdot m_2}}$$</LaTeX>
+        <Variable>force_gravi</Variable>
+        <Variable>gravconst</Variable>
+        <Variable>mass1</Variable>
+        <Variable>mass2</Variable>
+        <Variable>abstand</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>wave</Category>
+        <ButtonText lang="DE">Phasengeschwindigkeit aus Wellenlänge und Periodendauer</ButtonText>
+        <ButtonText lang="ENG">Phase velocity from wave length and period</ButtonText>
+        <Preview lang="DE">v = λ ÷ T</Preview>
+        <Umformung>l / T</Umformung>
+        <Umformung>v * T</Umformung>
+        <Umformung>l / v</Umformung>
+        <LaTeX lang="DE">$$v = \frac{\lambda}{T}$$</LaTeX>
+        <LaTeX lang="DE">$$\lambda = v \cdot T$$</LaTeX>
+        <LaTeX lang="DE">$$T = \frac{\lambda}{v}$$</LaTeX>
+        <Variable>phasengeschwindigkeit</Variable>
+        <Variable>wavelength</Variable>
+        <Variable>periodendauer</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>wave</Category>
+        <ButtonText lang="DE">Phasengeschwindigkeit aus Wellenlänge und Frequenz</ButtonText>
+        <ButtonText lang="ENG">Phase velocity from wave length and frequency</ButtonText>
+        <Preview lang="DE">v = λ · f</Preview>
+        <Umformung>l * f</Umformung>
+        <Umformung>v / f</Umformung>
+        <Umformung>v / l</Umformung>
+        <LaTeX lang="DE">$$v = \lambda \cdot f$$</LaTeX>
+        <LaTeX lang="DE">$$\lambda = \frac{v}{f}$$</LaTeX>
+        <LaTeX lang="DE">$$f = \frac{v}{\lambda}$$</LaTeX>
+        <Variable>phasengeschwindigkeit</Variable>
+        <Variable>wavelength</Variable>
+        <Variable>frequency</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>wave</Category>
+        <ButtonText lang="DE">Erste Bedingung für konstruktive Interferenz</ButtonText>
+        <ButtonText lang="ENG">First condition for constructive interference</ButtonText>
+        <Preview lang="DE">Δs = k · λ</Preview>
+        <Umformung>k * l</Umformung>
+        <Umformung>s / l</Umformung>
+        <Umformung>s / k</Umformung>
+        <LaTeX lang="DE">$$\Delta s = k \cdot \lambda$$</LaTeX>
+        <LaTeX lang="DE">$$k = \frac{\Delta s}{\lambda}$$</LaTeX>
+        <LaTeX lang="DE">$$\lambda = \frac{\Delta s}{k}$$</LaTeX>
+        <Variable>gangunterschied</Variable>
+        <Variable>ganze_zahl_ordnung</Variable>
+        <Variable>wavelength</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>wave</Category>
+        <ButtonText lang="DE">Zweite Bedingung für konstruktive Interferenz</ButtonText>
+        <ButtonText lang="ENG">Second condition for constructive interference</ButtonText>
+        <Preview lang="DE">Δs = b · sin(α)</Preview>
+        <Umformung>b * sin(a * ((2 * pi) / 360))</Umformung>
+        <Umformung>s / (sin(a * ((2 * pi) / 360)))</Umformung>
+        <Umformung>(arcsin(s / b)) * (360 / (2 * pi))</Umformung>
+        <LaTeX lang="DE">$$\Delta s = b \cdot \sin{\alpha}$$</LaTeX>
+        <LaTeX lang="DE">$$b = \frac{\Delta s}{\sin{\alpha}}$$</LaTeX>
+        <LaTeX lang="DE">$$\alpha = \arcsin{\frac{\Delta s}{b}}$$</LaTeX>
+        <Variable>gangunterschied</Variable>
+        <Variable>abstand_sender</Variable>
+        <Variable>winkel_alpha_physics</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>rela</Category>
+        <ButtonText lang="DE">Zeitdilatation</ButtonText>
+        <ButtonText lang="ENG">Time dilation</ButtonText>
+        <Preview lang="DE">Δt = Δt' ÷ √(1 - (v/c)²)</Preview>
+        <Umformung>r / sqrt(1 - (v/c)^2)</Umformung>
+        <Umformung>t * sqrt(1 - (v/c)^2)</Umformung>
+        <Umformung>c * sqrt((t/r)^2 - 1)</Umformung>
+        <LaTeX lang="DE">$$\Delta t = \frac{\Delta t'}{\sqrt{1 - (\frac{v}{c})^2}}$$</LaTeX>
+        <LaTeX lang="DE">$$\Delta t' = \Delta t \cdot \sqrt{1 - (\frac{v}{c})^2}$$</LaTeX>
+        <LaTeX lang="DE">$$v = c \cdot \sqrt{(\frac{\Delta t}{\Delta t'})^2 - 1}$$</LaTeX>
+        <Variable>time_change</Variable>
+        <Variable>time_system</Variable>
+        <Variable>velocity</Variable>
+        <Variable>light</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>rela</Category>
+        <ButtonText lang="DE">Längenkontraktion</ButtonText>
+        <ButtonText lang="ENG">Length contraction</ButtonText>
+        <Preview lang="DE">l' = l · √(1 - (v/c)²)</Preview>
+        <Umformung>l * sqrt(1 - (v/c)^2)</Umformung>
+        <Umformung>k / sqrt(1 - (v/c)^2)</Umformung>
+        <Umformung>c * sqrt((k/l)^2 - 1)</Umformung>
+        <LaTeX lang="DE">$$l' = l \cdot \sqrt{1 - (\frac{v}{c})^2} $$</LaTeX>
+        <LaTeX lang="DE">$$l = \frac{l'} {\sqrt{1 - (\frac{v}{c})^2}}$$</LaTeX>
+        <LaTeX lang="DE">$$v = c \cdot \sqrt{(\frac{l'}{l})^2 - 1}$$</LaTeX>
+        <Variable>length_physics_system</Variable>
+        <Variable>length_physics</Variable>
+        <Variable>velocity</Variable>
+        <Variable>light</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>umrechnung</Category>
+        <ButtonText lang="DE">Grad Celsius und Kelvin</ButtonText>
+        <ButtonText lang="ENG">Degrees Celsius to Kelvin</ButtonText>
+        <Preview lang="DE">K = C + 273,15</Preview>
+        <Umformung>G + (273.15)</Umformung>
+        <Umformung>K - 273.15</Umformung>
+        <LaTeX lang="DE">$$K = C + 273,15$$</LaTeX>
+        <LaTeX lang="DE">$$C = K - 273,15$$</LaTeX>
+        <Variable>kelvin</Variable>
+        <Variable>celsius</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>umrechnung</Category>
+        <ButtonText lang="DE">Kilometer pro Stunde und Meter pro Sekunde</ButtonText>
+        <ButtonText lang="ENG">Kilometers per hour to meters per second</ButtonText>
+        <Preview lang="DE">m/s = km/h ÷ 3,6</Preview>
+        <Umformung>km / 3.6</Umformung>
+        <Umformung>ms * 3.6</Umformung>
+        <LaTeX lang="DE">$$m/s = \frac{km/h}{3,6}$$</LaTeX>
+        <LaTeX lang="DE">$$km/h = m/s \cdot 3,6$$</LaTeX>
+        <Variable>velocity_m</Variable>
+        <Variable>velocity_km</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>thermo</Category>
+        <ButtonText lang="DE">Verbrennungswärme</ButtonText>
+        <ButtonText lang="ENG">Heat of combustion</ButtonText>
+        <Preview lang="DE">Q = H · m</Preview>
+        <Umformung>H * m</Umformung>
+        <Umformung>Q / m</Umformung>
+        <Umformung>Q / H</Umformung>
+        <LaTeX lang="DE">$$Q = H \cdot m$$</LaTeX>
+        <LaTeX lang="DE">$$H = \frac{Q}{m}$$</LaTeX>
+        <LaTeX lang="DE">$$m = \frac{Q}{H}$$</LaTeX>
+        <Variable>verbrennungswaerme</Variable>
+        <Variable>heat_value</Variable>
+        <Variable>mass</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>force</Category>
+        <ButtonText lang="DE">Wichte</ButtonText>
+        <ButtonText lang="ENG">Specific weight</ButtonText>
+        <Preview lang="DE">γ = F ÷ V</Preview>
+        <Umformung>F / V</Umformung>
+        <Umformung>y * V</Umformung>
+        <Umformung>F / y</Umformung>
+        <LaTeX lang="DE">$$\gamma = \frac{F_G}{V}$$</LaTeX>
+        <LaTeX lang="DE">$$F_G = V \cdot \gamma$$</LaTeX>
+        <LaTeX lang="DE">$$V = \frac{F_G}{\gamma}$$</LaTeX>
+        <Variable>wichte</Variable>
+        <Variable>force_gewicht</Variable>
+        <Variable>volume_physics</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>force</Category>
+        <ButtonText lang="DE">Drehmoment</ButtonText>
+        <ButtonText lang="ENG">Torsional moment</ButtonText>
+        <Preview lang="DE">M = F · l</Preview>
+        <Umformung>F * l</Umformung>
+        <Umformung>M / l</Umformung>
+        <Umformung>M / F</Umformung>
+        <LaTeX lang="DE">$$M = F \cdot l$$</LaTeX>
+        <LaTeX lang="DE">$$F = \frac{M}{l}$$</LaTeX>
+        <LaTeX lang="DE">$$l = \frac{M}{F}$$</LaTeX>
+        <Variable>moment_of_spinning</Variable>
+        <Variable>force</Variable>
+        <Variable>hebelarm</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>force</Category>
+        <ButtonText lang="DE">Auftrieb in Flüssigkeiten</ButtonText>
+        <ButtonText lang="ENG">Buocancy in liquids</ButtonText>
+        <Preview lang="DE">F = ρ · g · V</Preview>
+        <Umformung>p * g * V</Umformung>
+        <Umformung>F/(g * V)</Umformung>
+        <Umformung>F/(g * p)</Umformung>
+        <Umformung>F/(p * V )</Umformung>
+        <LaTeX lang="DE">$$F_A = \rho \cdot g \cdot V$$</LaTeX>
+        <LaTeX lang="DE">$$\rho = \frac{F_A}{g \cdot V}$$</LaTeX>
+        <LaTeX lang="DE">$$V = \frac{F_A}{g \cdot \rho}$$</LaTeX>
+        <LaTeX lang="DE">$$g = \frac{F_A}{V \cdot \rho}$$</LaTeX>
+        <Variable>force_auftrieb</Variable>
+        <Variable>density</Variable>
+        <Variable>gvariable</Variable>
+        <Variable>volume_chemistry</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>force</Category>
+        <ButtonText lang="DE">Schweredruck</ButtonText>
+        <ButtonText lang="ENG">Gravitational / hydrostatic pressure</ButtonText>
+        <Preview lang="DE">p = ρ · g · h</Preview>
+        <Umformung>d * g * h</Umformung>
+        <Umformung>p / (g * h)</Umformung>
+        <Umformung>p/(g * d)</Umformung>
+        <Umformung>p / (d * h)</Umformung>
+        <LaTeX lang="DE">$$p = \rho \cdot g \cdot h$$</LaTeX>
+        <LaTeX lang="DE">$$\rho = \frac{p}{g \cdot h}$$</LaTeX>
+        <LaTeX lang="DE">$$h = \frac{p}{g \cdot \rho}$$</LaTeX>
+        <LaTeX lang="DE">$$g = \frac{p}{h \cdot \rho}$$</LaTeX>
+        <Variable>pressure</Variable>
+        <Variable>density</Variable>
+        <Variable>gvariable</Variable>
+        <Variable>hoehe_der_Fls</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>force</Category>
+        <ButtonText lang="DE">Lineares Kraftgesetz</ButtonText>
+        <ButtonText lang="ENG">Law of linear force</ButtonText>
+        <Preview lang="DE">F = -D · y</Preview>
+        <Umformung>(-D) * y</Umformung>
+        <Umformung>(-F) / y</Umformung>
+        <Umformung>(-F) / D</Umformung>
+        <LaTeX lang="DE">$$F = \text{-} D \cdot y$$</LaTeX>
+        <LaTeX lang="DE">$$D = \frac{\text{-} F}{y}$$</LaTeX>
+        <LaTeX lang="DE">$$y = \frac{\text{-} F}{D}$$</LaTeX>
+        <Variable>force</Variable>
+        <Variable>federconst</Variable>
+        <Variable>elongation_auslnkg</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>elec</Category>
+        <ButtonText lang="DE">Widerstandsänderung durch Temperaturänderung</ButtonText>
+        <ButtonText lang="ENG">Change of resistance due to change of temperature</ButtonText>
+        <Preview lang="DE">∆R = R · α · ∆T</Preview>
+        <Umformung>R * a * vT</Umformung>
+        <Umformung>vR / (a * vT)</Umformung>
+        <Umformung>R / (vR * VT)</Umformung>
+        <Umformung>R / (vR * a)</Umformung>
+        <LaTeX lang="DE">$$\Delta R =  R \cdot \alpha \cdot \Delta T$$</LaTeX>
+        <LaTeX lang="DE">$$R = \frac{\Delta R} {\alpha \cdot \Delta T}$$</LaTeX>
+        <LaTeX lang="DE">$$\alpha = \frac{R} {\Delta R \cdot \Delta T}$$</LaTeX>
+        <LaTeX lang="DE">$$\Delta T = \frac{R} {\Delta R \cdot \alpha}$$</LaTeX>
+        <Variable>change_of_resistance</Variable>
+        <Variable>resistance</Variable>
+        <Variable>value_of_temp</Variable>
+        <Variable>change_temp</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>elec</Category>
+        <ButtonText lang="DE">Widerstandsgesetz</ButtonText>
+        <ButtonText lang="ENG">Law of resistance</ButtonText>
+        <Preview lang="DE">R = (ρ · l) ÷ A</Preview>
+        <Umformung>(p * l) / A</Umformung>
+        <Umformung>(R * A) / p</Umformung>
+        <Umformung>(R * A) / l</Umformung>
+        <Umformung>(p * l) / R</Umformung>
+        <LaTeX lang="DE">$$R = \frac{\rho \cdot l}{A}$$</LaTeX>
+        <LaTeX lang="DE">$$l = \frac{R \cdot A}{\rho}$$</LaTeX>
+        <LaTeX lang="DE">$$\rho = \frac{R \cdot A}{l}$$</LaTeX>
+        <LaTeX lang="DE">$$A = \frac{\rho \cdot l}{R}$$</LaTeX>
+        <Variable>resistance</Variable>
+        <Variable>resistance_spezifisch</Variable>
+        <Variable>length_physics</Variable>
+        <Variable>area</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>elec</Category>
+        <ButtonText lang="DE">Spezifischer Leitwert und Widerstand</ButtonText>
+        <ButtonText lang="ENG">Specific conductivity and resistance</ButtonText>
+        <Preview lang="DE">R = l ÷ (κ · A)</Preview>
+        <Umformung>l / (k * A)</Umformung>
+        <Umformung>R * k * A</Umformung>
+        <Umformung>l / (R * A)</Umformung>
+        <Umformung>l / (k * R)</Umformung>
+        <LaTeX lang="DE">$$R = \frac{l}{\tau \cdot A}$$</LaTeX>
+        <LaTeX lang="DE">$$l = R \cdot \tau \cdot A$$</LaTeX>
+        <LaTeX lang="DE">$$\tau = \frac{l}{R \cdot A}$$</LaTeX>
+        <LaTeX lang="DE">$$A = \frac{l}{\tau \cdot R}$$</LaTeX>
+        <Variable>resistance</Variable>
+        <Variable>length_physics</Variable>
+        <Variable>specflow</Variable>
+        <Variable>area</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>elec</Category>
+        <ButtonText lang="DE">Elektrische Feldstärke aus Kraft und Ladung</ButtonText>
+        <ButtonText lang="ENG">Electric field strength of force and charge</ButtonText>
+        <Preview lang="DE">E = F ÷ Q</Preview>
+        <Umformung>F / Q</Umformung>
+        <Umformung>E * Q</Umformung>
+        <Umformung>F / E</Umformung>
+        <LaTeX lang="DE">$$E = \frac{F}{Q}$$</LaTeX>
+        <LaTeX lang="DE">$$F = E \cdot Q$$</LaTeX>
+        <LaTeX lang="DE">$$Q = \frac{F}{E}$$</LaTeX>
+        <Variable>power_of_elec_fieldI</Variable>
+        <Variable>force</Variable>
+        <Variable>charge_Q</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>elec</Category>
+        <ButtonText lang="DE">Elektrische Feldstärke aus Spannung und Plattenabstand</ButtonText>
+        <ButtonText lang="ENG">Electric field strength of voltage and distance between the plates</ButtonText>
+        <Preview lang="DE">E = U ÷ d</Preview>
+        <Umformung>U / d</Umformung>
+        <Umformung>E * d</Umformung>
+        <Umformung>U / E</Umformung>
+        <LaTeX lang="DE">$$E = \frac{U}{d}$$</LaTeX>
+        <LaTeX lang="DE">$$U = E \cdot d$$</LaTeX>
+        <LaTeX lang="DE">$$d = \frac{U}{E}$$</LaTeX>
+        <Variable>power_of_elec_fieldII</Variable>
+        <Variable>voltage</Variable>
+        <Variable>distance_plates</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>magnet</Category>
+        <ButtonText lang="DE">Flussdichte</ButtonText>
+        <ButtonText lang="ENG">Flow density</ButtonText>
+        <Preview lang="DE">B = F ÷ (I · l)</Preview>
+        <Umformung>F / (I * l)</Umformung>
+        <Umformung>B * I * l</Umformung>
+        <Umformung>F / (B * l)</Umformung>
+        <Umformung>F / (I * B)</Umformung>
+        <LaTeX lang="DE">$$B = \frac{F}{I \cdot l}$$</LaTeX>
+        <LaTeX lang="DE">$$F = B \cdot I \cdot l$$</LaTeX>
+        <LaTeX lang="DE">$$I = \frac{F}{B \cdot l}$$</LaTeX>
+        <LaTeX lang="DE">$$l = \frac{F}{I \cdot B}$$</LaTeX>
+        <Variable>mag_river_density</Variable>
+        <Variable>force</Variable>
+        <Variable>stromstaerke</Variable>
+        <Variable>length_physics</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>thermo</Category>
+        <ButtonText lang="DE">Schmelzenergie/Erstarrungsenergie</ButtonText>
+        <ButtonText lang="ENG">Melting energy / Solidification energy</ButtonText>
+        <Preview lang="DE">Q = q · m</Preview>
+        <Umformung>q * m</Umformung>
+        <Umformung>Q / m</Umformung>
+        <Umformung>Q / q</Umformung>
+        <LaTeX lang="DE">$$Q = q_s \cdot m$$</LaTeX>
+        <LaTeX lang="DE">$$q_s = \frac{Q}{m}$$</LaTeX>
+        <LaTeX lang="DE">$$m = \frac{Q}{q_s}$$</LaTeX>
+        <Variable>energy_for_aggregI</Variable>
+        <Variable>spez_melt_frost_temp</Variable>
+        <Variable>mass</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>thermo</Category>
+        <ButtonText lang="DE">Verdampfungsenergie/Kondensationsenergie</ButtonText>
+        <ButtonText lang="ENG">Vaporization energy / Condensation energy</ButtonText>
+        <Preview lang="DE">Q = q · m</Preview>
+        <Umformung>q * m</Umformung>
+        <Umformung>Q / m</Umformung>
+        <Umformung>Q / q</Umformung>
+        <LaTeX lang="DE">$$Q = q_v \cdot m$$</LaTeX>
+        <LaTeX lang="DE">$$q_v = \frac{Q}{m}$$</LaTeX>
+        <LaTeX lang="DE">$$m = \frac{Q}{q_v}$$</LaTeX>
+        <Variable>energie_for_aggregII</Variable>
+        <Variable>spez_dampf_konden_temp</Variable>
+        <Variable>mass</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>thermo</Category>
+        <ButtonText lang="DE">Isobarer Prozess</ButtonText>
+        <ButtonText lang="ENG">Isobaric process</ButtonText>
+        <Preview lang="DE">Q = c · m · ΔT</Preview>
+        <Umformung>c * m * vT</Umformung>
+        <Umformung>Q / (m * vT)</Umformung>
+        <Umformung>Q / (c * vT)</Umformung>
+        <Umformung>Q / (c * m)</Umformung>
+        <LaTeX lang="DE">$$Q = c_P \cdot m \cdot \Delta T$$</LaTeX>
+        <LaTeX lang="DE">$$c_P = \frac{Q}{m \cdot \Delta T}$$</LaTeX>
+        <LaTeX lang="DE">$$m = \frac{Q}{c_P \cdot \Delta T}$$</LaTeX>
+        <LaTeX lang="DE">$$\Delta T = \frac{Q}{c_P \cdot m}$$</LaTeX>
+        <Variable>ausgetauschte_waereme</Variable>
+        <Variable>waermecap_konst_druck</Variable>
+        <Variable>mass</Variable>
+        <Variable>aenderung_temp</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>thermo</Category>
+        <ButtonText lang="DE">Isochorer Prozess</ButtonText>
+        <ButtonText lang="ENG">Isochoric process</ButtonText>
+        <Preview lang="DE">Q = c · m · ΔT</Preview>
+        <Umformung>c * m * vT</Umformung>
+        <Umformung>Q / (m * vT)</Umformung>
+        <Umformung>Q / (c * vT)</Umformung>
+        <Umformung>Q / (c * m)</Umformung>
+        <LaTeX lang="DE">$$Q = c_V \cdot m \cdot \Delta T$$</LaTeX>
+        <LaTeX lang="DE">$$c_V = \frac{Q}{m \cdot \Delta T}$$</LaTeX>
+        <LaTeX lang="DE">$$m = \frac{Q}{c_V \cdot \Delta T}$$</LaTeX>
+        <LaTeX lang="DE">$$\Delta T = \frac{Q}{c_V \cdot m}$$</LaTeX>
+        <Variable>ausgetauschte_waereme</Variable>
+        <Variable>waermecap_konst_vol</Variable>
+        <Variable>mass</Variable>
+        <Variable>aenderung_temp</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>thermo</Category>
+        <ButtonText lang="DE">Wärmewiderstand</ButtonText>
+        <ButtonText lang="ENG">Thermal resistance</ButtonText>
+        <Preview lang="DE">R = (P · I) ÷ A</Preview>
+        <Umformung>(P * I) / A</Umformung>
+        <Umformung>(R * A) / I</Umformung>
+        <Umformung>(R * A) / P</Umformung>
+        <Umformung>(P * I) / R</Umformung>
+        <LaTeX lang="DE">$$R_{th} = \frac{P_{th} \cdot I}{A}$$</LaTeX>
+        <LaTeX lang="DE">$$P_{th} = \frac{R_{th} \cdot A}{I}$$</LaTeX>
+        <LaTeX lang="DE">$$I = \frac{R_{th} \cdot A}{P_{th}}$$</LaTeX>
+        <LaTeX lang="DE">$$A = \frac{P_{th} \cdot I}{R_{th}}$$</LaTeX>
+        <Variable>waerme_widerstand</Variable>
+        <Variable>spez_waerme_widerstand</Variable>
+        <Variable>stromstaerke</Variable>
+        <Variable>waermeleiter_querschnitt</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>thermo</Category>
+        <ButtonText lang="DE">Spezifischer Wärmewiderstand</ButtonText>
+        <ButtonText lang="ENG">Specific thermal resistance</ButtonText>
+        <Preview lang="DE">P = (Δϑ · A) ÷ (Q · L)</Preview>
+        <Umformung>(vV * A) / (Q * L)</Umformung>
+        <Umformung>(P * Q * L) / A</Umformung>
+        <Umformung>(P * Q * L) / vV</Umformung>
+        <Umformung>(vV * A) / (P * L)</Umformung>
+        <Umformung>(vV * A) / (P * Q)</Umformung>
+        <LaTeX lang="DE">$$P_{th} = \frac{\Delta \vartheta \cdot A}{\dot Q  \cdot L}$$</LaTeX>
+        <LaTeX lang="DE">$$\Delta \vartheta = \frac{P_{th} \cdot \dot Q \cdot L}{A}$$</LaTeX>
+        <LaTeX lang="DE">$$A = \frac{P_{th} \cdot \dot Q \cdot L}{\Delta \vartheta}$$</LaTeX>
+        <LaTeX lang="DE">$$\dot Q = \frac{\Delta \vartheta \cdot A}{P_{th}  \cdot L}$$</LaTeX>
+        <LaTeX lang="DE">$$L = \frac{\Delta \vartheta \cdot A}{P_{th} \cdot \dot Q}$$</LaTeX>
+        <Variable>spez_waerme_widerstand</Variable>
+        <Variable>tempdif</Variable>
+        <Variable>waermeleiter_querschnitt</Variable>
+        <Variable>waerme_fluss</Variable>
+        <Variable>laenge_waermeleiter</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>atom</Category>
+        <ButtonText lang="DE">Atommasse</ButtonText>
+        <ButtonText lang="ENG">Atomic mass</ButtonText>
+        <Preview lang="DE">ma = A · u</Preview>
+        <Umformung>A * u</Umformung>
+        <Umformung>ma / u</Umformung>
+        <Umformung>ma / A</Umformung>
+        <LaTeX lang="DE">$$m_A = A_r \cdot u$$</LaTeX>
+        <LaTeX lang="DE">$$A_r = \frac{m_A}{u_A}$$</LaTeX>
+        <LaTeX lang="DE">$$u_A = \frac{m_A}{u_A}$$</LaTeX>
+        <Variable>mass_ato</Variable>
+        <Variable>mass_ato_rel</Variable>
+        <Variable>atommass</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>atom</Category>
+        <ButtonText lang="DE">Aktivität</ButtonText>
+        <ButtonText lang="ENG">Activity</ButtonText>
+        <Preview lang="DE">A(t) = λ · N(t)</Preview>
+        <Umformung>h * N</Umformung>
+        <Umformung>A / N</Umformung>
+        <Umformung>A / h</Umformung>
+        <LaTeX lang="DE">$$A(t) = \lambda \cdot N(t)$$</LaTeX>
+        <LaTeX lang="DE">$$\lambda = \frac{A(t)}{N(t)}$$</LaTeX>
+        <LaTeX lang="DE">$$N(t) = \frac{A(t)}{\lambda}$$</LaTeX>
+        <Variable>activity</Variable>
+        <Variable>zerfallsconst</Variable>
+        <Variable>zerf_ato</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>atom</Category>
+        <ButtonText lang="DE">Mittlere Lebensdauer</ButtonText>
+        <ButtonText lang="ENG">Average lifespan</ButtonText>
+        <Preview lang="DE">τ = 1 ÷ λ</Preview>
+        <Umformung>1 / h</Umformung>
+        <Umformung>1 / t</Umformung>
+        <LaTeX lang="DE">$$\tau = \frac{1}{\lambda}$$</LaTeX>
+        <LaTeX lang="DE">$$\lambda = \frac{1}{\tau}$$</LaTeX>
+        <Variable>lifespan</Variable>
+        <Variable>zerfallsconst</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>force</Category>
+        <ButtonText lang="DE">Gesetz von Stokes</ButtonText>
+        <ButtonText lang="ENG">Law of Stokes</ButtonText>
+        <Preview lang="DE">FR = 6π · r · η · v</Preview>
+        <Umformung>6 * pi * r * n * v</Umformung>
+        <Umformung>F / (6 * pi * n * v)</Umformung>
+        <Umformung>F / (6 * pi * r * v)</Umformung>
+        <Umformung>F / (6 * pi * r * n)</Umformung>
+        <LaTeX lang="DE">$$F_R = 6 \pi \cdot r \cdot \eta \cdot v$$</LaTeX>
+        <LaTeX lang="DE">$$r = \frac{F_R}{6 \cdot \pi \cdot \eta \cdot v}$$</LaTeX>
+        <LaTeX lang="DE">$$\eta = \frac{F_R}{6 \cdot \pi \cdot r \cdot v}$$</LaTeX>
+        <LaTeX lang="DE">$$v = \frac{F_R}{6 \cdot \pi \cdot r \cdot \eta}$$</LaTeX>
+        <Variable>force_reibung_spherical</Variable>
+        <Variable>radius_particle</Variable>
+        <Variable>viskositas</Variable>
+        <Variable>velocity</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>elek_feld</Category>
+        <ButtonText lang="DE">Coulombsches Gesetz</ButtonText>
+        <ButtonText lang="ENG">Coulomb's law</ButtonText>
+        <Preview lang="DE">F = (1 ÷ (4 · π · ε)) · ((Q1 · Q2) ÷ r²)</Preview>
+        <Umformung>(1 / (4 * pi * Ep)) * ((Q1 * Q2) / r^2)</Umformung>
+        <Umformung>(F * 4 * pi * Ep * r^2) / Q2</Umformung>
+        <Umformung>(F * 4 * pi * Ep * r^2) / Q1</Umformung>
+        <Umformung>sqrt((F * 4 * pi * Ep) / (Q1 * Q2))</Umformung>
+        <LaTeX lang="DE">$$F = \frac{1}{4 \cdot \pi \cdot \varepsilon_0 } \cdot \frac{Q_1 \cdot Q_2}{r^2}$$</LaTeX>
+        <LaTeX lang="DE">$$Q_1 = \frac{F \cdot 4 \cdot \pi \cdot \varepsilon_0 \cdot r^2}{Q_2}$$</LaTeX>
+        <LaTeX lang="DE">$$Q_2 = \frac{F \cdot 4 \cdot \pi \cdot \varepsilon_0 \cdot r^2}{Q_1}$$</LaTeX>
+        <LaTeX lang="DE">$$r = \sqrt{\frac{F \cdot 4 \pi \cdot \varepsilon_0}{Q_1 \cdot Q_2}}$$</LaTeX>
+        <Variable>force_geladene_Koerper</Variable>
+        <Variable>die_elektrizitaetskonstante</Variable>
+        <Variable>ladung1</Variable>
+        <Variable>ladung2</Variable>
+        <Variable>abstand</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>elek_feld</Category>
+        <ButtonText lang="DE">Elektrische Feldstärke eines Plattenkondensators</ButtonText>
+        <ButtonText lang="ENG">Electric field strength of a plate capacitor</ButtonText>
+        <Preview lang="DE">E = U ÷ d</Preview>
+        <Umformung>U / d</Umformung>
+        <Umformung>E * d</Umformung>
+        <Umformung>U / E</Umformung>
+        <LaTeX lang="DE">$$E = \frac{U}{d}$$</LaTeX>
+        <LaTeX lang="DE">$$U = E \cdot d$$</LaTeX>
+        <LaTeX lang="DE">$$d= \frac{U}{E}$$</LaTeX>
+        <Variable>elek_feldstaerke</Variable>
+        <Variable>voltage_kondensator</Variable>
+        <Variable>abstand_platten</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>elek_feld</Category>
+        <ButtonText lang="DE">Flächenladungsdichte</ButtonText>
+        <ButtonText lang="ENG">Surface charge density</ButtonText>
+        <Preview lang="DE">σ = Q ÷ A</Preview>
+        <Umformung>Q / A</Umformung>
+        <Umformung>o * A</Umformung>
+        <Umformung>Q / o</Umformung>
+        <LaTeX lang="DE">$$\sigma = \frac{Q}{A}$$</LaTeX>
+        <LaTeX lang="DE">$$Q = \sigma \cdot A$$</LaTeX>
+        <LaTeX lang="DE">$$A = \frac{Q}{\sigma}$$</LaTeX>
+        <Variable>flaechen_ladungs_dichte</Variable>
+        <Variable>charge_Q</Variable>
+        <Variable>area</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>elek_feld</Category>
+        <ButtonText lang="DE">Elektrische Feldstärke im Radialfeld</ButtonText>
+        <ButtonText lang="ENG">Electric field strength in a radial field</ButtonText>
+        <Preview lang="DE">E = Q ÷ (4 · π · ε · r²) </Preview>
+        <Umformung>Q / (4 * pi * Ep * (r^2))</Umformung>
+        <Umformung>(4 * pi * Ep * (r^2)) / E</Umformung>
+        <Umformung>sqrt(Q / (4 * pi * Ep * E))</Umformung>
+        <LaTeX lang="DE">$$E = \frac{Q}{4 \cdot \pi \cdot \varepsilon_0 \cdot r^2}$$</LaTeX>
+        <LaTeX lang="DE">$$Q = \frac{4 \cdot \pi \cdot \varepsilon_0 \cdot r^2}{E}$$</LaTeX>
+        <LaTeX lang="DE">$$r = \sqrt{\frac{Q}{4 \cdot \pi \cdot \varepsilon_0 \cdot E}}$$</LaTeX>
+        <Variable>feldstaerke_radial</Variable>
+        <Variable>charge_Q</Variable>
+        <Variable>die_elektrizitaetskonstante</Variable>
+        <Variable>abstand</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>elek_feld</Category>
+        <ButtonText lang="DE">Elektrisches Potential</ButtonText>
+        <ButtonText lang="ENG">Electric potential</ButtonText>
+        <Preview lang="DE">φ = W ÷ q</Preview>
+        <Umformung>W / q</Umformung>
+        <Umformung>p * q</Umformung>
+        <Umformung>p / W</Umformung>
+        <LaTeX lang="DE">$$\varphi = \frac{W}{q_{Pr}}$$</LaTeX>
+        <LaTeX lang="DE">$$W = \varphi \cdot q_{Pr}$$</LaTeX>
+        <LaTeX lang="DE">$$q_{Pr} = \frac{\varphi}{W}$$</LaTeX>
+        <Variable>elek_potential</Variable>
+        <Variable>work</Variable>
+        <Variable>charge_q</Variable>
+    </Formel>
+
+</Formeln>

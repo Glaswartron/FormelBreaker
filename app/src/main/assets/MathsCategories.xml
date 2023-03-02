@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    © Benedikt Wille, Rene Jokiel 2018
+    Urheber: Benedikt Wille, Rene Jokiel
+
+    Dieses Dokument ist gemäß deutschem Urheberschutz geschützt
+
+    Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen
+    des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers
+
+    Die Vervielfältigung oder Neu-Umsetzung (auch einzelner Komponenten) der Software auf
+    Basis der Software wird Dritten nicht gestattet
+-->
+
+<Categories>
+
+    <Category>
+        <Identifier>pytha</Identifier>
+        <ButtonText lang="DE">Satzgruppe des Pythagoras</ButtonText>
+        <ButtonText lang="ENG">Group of Theorems of Pythagoras</ButtonText>
+    </Category>
+    <Category>
+        <Identifier>area</Identifier>
+        <ButtonText lang="DE">Flächeninhalt</ButtonText>
+        <ButtonText lang="ENG">Area</ButtonText>
+    </Category>
+    <Category>
+        <Identifier>umf</Identifier>
+        <ButtonText lang="DE">Umfang</ButtonText>
+        <ButtonText lang="ENG">Circumference</ButtonText>
+    </Category>
+    <Category>
+        <Identifier>vol</Identifier>
+        <ButtonText lang="DE">Volumen</ButtonText>
+        <ButtonText lang="ENG">Volume</ButtonText>
+    </Category>
+    <Category>
+        <Identifier>surface</Identifier>
+        <ButtonText lang="DE">Oberfläche</ButtonText>
+        <ButtonText lang="ENG">Surface area</ButtonText>
+    </Category>
+    <Category>
+        <Identifier>lengths</Identifier>
+        <ButtonText lang="DE">Weitere Längen</ButtonText>
+        <ButtonText lang="ENG">Other lengths</ButtonText>
+    </Category>
+    <Category>
+        <Identifier>func</Identifier>
+        <ButtonText lang="DE">Mathematische Funktionen</ButtonText>
+        <ButtonText lang="ENG">Mathematical functions</ButtonText>
+    </Category>
+
+</Categories>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="physics_button_label">Physik</string>
+    <string name="chemistry_button_label">Chemie</string>
+    <string name="kategorienText">Kategorien</string>
+    <string name="formelnText">Formeln</string>
+    <string name="go_button_label">Go</string>
+    <string name="clear_button_label">Leeren</string>
+    <string name="result_button_label">Ergebnis:</string>
+    <string name="favorites_button_label">Favoriten</string>
+    <string name="options_button_label">Optionen</string>
+    <string name="search_text_1">Suchen unter</string>
+    <string name="search_text_2">Suchen nach</string>
+    <string name="search_Button_Label">Suchen</string>
+    <string name="favoritesText">Favoriten</string>
+    <string name="switchButtonLabel1">Formel</string>
+    <string name="switchButtonLabel2">Name</string>
+    <string name="options_Text">Optionen</string>
+    <string name="options_language">Sprache:</string>
+    <string name="options_round">Rundungsgenauigkeit:</string>
+    <string name="options_gconstant">Ortsfaktor / Fallbeschleunigung:</string>
+    <string name="legal_label">Impressum</string>
+    <string name="noSearchResults">Keine Ergebnisse</string>
+    <string name="noFavorites">Keine Favoriten</string>
+    <string name="unitsText">Einheiten</string>
+    <string name="more_button_label">Weitere</string>
+    <string name="constants_button_label">Konstanten</string>
+    <string name="constantsTableSymbol">Symbol</string>
+    <string name="math_button_label">Mathe</string>
+    <string name="legal_text">
+        Wir bedanken uns sehr herzlich bei allen Unterstützerinnen und Unterstützern,
+    insbesondere\n\n
+    - bei den Lehrern des Hans-Sachs-Gymnasiums Nürnberg, die uns mit ihrer fachlichen Meinung zur Seite standen\n
+    - bei Joshua Brandes\n
+    - bei unseren Familien und Freunden, die die Entwicklung von FormelBreaker unterstützt haben\n\n\n\n
+    Angaben gemäß § 5 TMG
+    \n\n
+    Benedikt Wille\n
+    Laufamholzstraße, 422\n
+    90482 Nürnberg\n
+    \n
+    Rene Jokiel\n
+    Wunibaldstraße, 2\n
+    90491 Nürnberg\n
+    \n
+    Kontakt:\n
+    Telefon: +49 152 09897398\n
+    E-Mail: FormelBreaker@gmx.net\n
+    \n
+    Haftungsausschluss:\n
+    \n
+    © Benedikt Wille, Rene Jokiel 2018\n
+    Urheber: Benedikt Wille, Rene Jokiel\n
+    \n
+    Diese Software, der Name Formel Breaker, die Designs und Grafiken, die zugrunde liegenden
+    Datenbanken und der Softwarecode unterliegen dem deutschen Urheberrecht\n
+    \n
+    Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen
+    des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers\n
+    \n
+    Downloads und Kopien dieser Software sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.\n
+    \n
+    Die Vervielfältigung oder Neu-Umsetzung (auch einzelner Komponenten) der Software auf\n
+    Basis der Software wird Dritten nicht gestattet
+    \n\n
+    FormelBreaker verwendet die mXparser-Library von Mariusz Gromada:
+    \n\nmXparser: Copyright 2010-2017 MARIUSZ GROMADA. All rights reserved. You may use this software under the condition of Simplified BSD License.\n\n
+    </string>
+    <string name="deluxe_ad_text">
+        Formel Breaker Deluxe bietet dir:
+        \n
+        \n
+        -> Ein umfangreiches Konstantenverzeichnis mit genauen Werten und Einheiten
+        \n
+        \n
+        -> Einen separaten Einheitenumrechner mit genauen Werte- und Umrechnungstabellen für jede Einheit
+        \n
+        \n
+        -> Jede Menge weitere Formeln aus der BWL/VWL, Zinsrechnung, Optik, Astrophysik und mehr
+        \n
+        \n
+        -> Höhere Rundungsgenauigkeit für noch exaktere Rechnungen mit sehr kleinen Zahlen
+        \n
+        \n
+        Das alles und mehr gibt es mit Formel Breaker Deluxe komplett ohne Werbung und für nur 2,49€
+        \n
+        \n
+        Jetzt im Google Play Store
+    </string>
+    <string name="privacyPolicy_button_label">Datenschutz</string>
+
+    <string-array name="search_field_spinner_items">
+        <item>Alle</item>
+        <item>Mathe</item>
+        <item>Physik</item>
+        <item>Chemie</item>
+        <item>Weitere</item>
+    </string-array>
+
+    <string-array name="search_type_spinner_items">
+        <item>Formelname</item>
+        <item>Variablenname</item>
+        <item>Variablensymbol</item>
+        <item>Kategorie</item>
+    </string-array>
+
+    <string-array name="options_gconstant_spinner_items">
+        <item>g variabel</item>
+        <item>g = 9,81m/s²</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    © Benedikt Wille, Rene Jokiel 2018
+    Urheber: Benedikt Wille, Rene Jokiel
+
+    Dieses Dokument ist gemäß deutschem Urheberschutz geschützt
+
+    Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen
+    des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers
+
+    Die Vervielfältigung oder Neu-Umsetzung (auch einzelner Komponenten) der Software auf
+    Basis der Software wird Dritten nicht gestattet
+-->
+
+<Categories>
+    <Category>
+        <Identifier>quant</Identifier>
+        <ButtonText lang="DE">Quantitative analytische Chemie</ButtonText>
+        <ButtonText lang="ENG">Quantitative analysis</ButtonText>
+    </Category>
+    <Category>
+        <Identifier>srba</Identifier>
+        <ButtonText lang="DE">Säure/Basen-Chemie</ButtonText>
+        <ButtonText lang="ENG">Acid/Base-chemistry</ButtonText>
+    </Category>
+    <Category>
+        <Identifier>reac</Identifier>
+        <ButtonText lang="DE">Reaktionskinetik</ButtonText>
+        <ButtonText lang="ENG">Chemical kinetics</ButtonText>
+    </Category>
+
+</Categories>

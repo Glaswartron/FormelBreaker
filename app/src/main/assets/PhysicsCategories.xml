@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    © Benedikt Wille, Rene Jokiel 2018
+    Urheber: Benedikt Wille, Rene Jokiel
+
+    Dieses Dokument ist gemäß deutschem Urheberschutz geschützt
+
+    Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen
+    des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers
+
+    Die Vervielfältigung oder Neu-Umsetzung (auch einzelner Komponenten) der Software auf
+    Basis der Software wird Dritten nicht gestattet
+-->
+
+<Categories>
+
+    <Category>
+        <Identifier>elec</Identifier>
+        <ButtonText lang="DE">Elektrischer Strom</ButtonText>
+        <ButtonText lang="ENG">Electricity</ButtonText>
+    </Category>
+    <Category>
+        <Identifier>thermo</Identifier>
+        <ButtonText lang="DE">Thermodynamik</ButtonText>
+        <ButtonText lang="ENG">Thermodynamics</ButtonText>
+    </Category>
+    <Category>
+        <Identifier>bewegung1D</Identifier>
+        <ButtonText lang="DE">Eindimensionale Bewegungen</ButtonText>
+        <ButtonText lang="ENG">One-dimensional motion</ButtonText>
+    </Category>
+    <Category>
+        <Identifier>bewegung2D</Identifier>
+        <ButtonText lang="DE">Zweidimensionale Bewegungen</ButtonText>
+        <ButtonText lang="ENG">Two-dimensional motion</ButtonText>
+    </Category>
+    <Category>
+        <Identifier>force</Identifier>
+        <ButtonText lang="DE">Kraft</ButtonText>
+        <ButtonText lang="ENG">Force</ButtonText>
+    </Category>
+    <Category>
+        <Identifier>work.power</Identifier>
+        <ButtonText lang="DE">Arbeit und Leistung</ButtonText>
+        <ButtonText lang="ENG">Work and power</ButtonText>
+    </Category>
+    <Category>
+        <Identifier>energy</Identifier>
+        <ButtonText lang="DE">Energie</ButtonText>
+        <ButtonText lang="ENG">Energy</ButtonText>
+    </Category>
+    <Category>
+        <Identifier>wave</Identifier>
+        <ButtonText lang="DE">Wellen</ButtonText>
+        <ButtonText lang="ENG">Waves</ButtonText>
+    </Category>
+    <Category>
+        <Identifier>rela</Identifier>
+        <ButtonText lang="DE">Relativitätstheorie</ButtonText>
+        <ButtonText lang="ENG">Theory of relativity</ButtonText>
+    </Category>
+    <Category>
+        <Identifier>elek_feld</Identifier>
+        <ButtonText lang="DE">Statisches Elektrisches Feld</ButtonText>
+        <ButtonText lang="ENG">Static electric field</ButtonText>
+    </Category>
+    <Category>
+        <Identifier>magnet</Identifier>
+        <ButtonText lang="DE">Magnetisches Feld</ButtonText>
+        <ButtonText lang="ENG">Magnetic field</ButtonText>
+    </Category>
+    <Category>
+        <Identifier>atom</Identifier>
+        <ButtonText lang="DE">Atomphysik</ButtonText>
+        <ButtonText lang="ENG">Atomic physics</ButtonText>
+    </Category>
+    <Category>
+        <Identifier>umrechnung</Identifier>
+        <ButtonText lang="DE">Physikalische Umrechnung</ButtonText>
+        <ButtonText lang ="ENG">Physical conversions</ButtonText>
+    </Category>
+
+</Categories>
+
+
+
+
+
+
+
+

@@ -1,0 +1,2101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    © Benedikt Wille, Rene Jokiel 2018
+    Urheber: Benedikt Wille, Rene Jokiel
+
+    Dieses Dokument ist gemäß deutschem Urheberschutz geschützt
+
+    Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen
+    des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers
+
+    Die Vervielfältigung oder Neu-Umsetzung (auch einzelner Komponenten) der Software auf
+    Basis der Software wird Dritten nicht gestattet
+-->
+
+<Variablen>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>hypotenuse_c</Identifier>
+        <Symbol>c</Symbol>
+        <Description lang="DE">Hypotenuse</Description>
+        <Description lang="ENG">﻿Hypotenuse</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>kathete_a</Identifier>
+        <Symbol>a</Symbol>
+        <Description lang="DE">Kathete</Description>
+        <Description lang="ENG">Cathetus</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>kathete_b</Identifier>
+        <Symbol>b</Symbol>
+        <Description lang="DE">Kathete</Description>
+        <Description lang="ENG">Cathetus</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>height_maths</Identifier>
+        <Symbol>h</Symbol>
+        <Description lang="DE">Höhe</Description>
+        <Description lang="ENG">Height</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>height_maths_c</Identifier>
+        <Symbol>c</Symbol>
+        <Description lang="DE">Höhe</Description>
+        <Description lang="ENG">Height</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>hypo_ab_p</Identifier>
+        <Symbol>p</Symbol>
+        <Description lang="DE">Hypotenusenabschnitt</Description>
+        <Description lang="ENG">Hypotenuse segment</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>hypo_ab_q</Identifier>
+        <Symbol>q</Symbol>
+        <Description lang="DE">Hypotenusenabschnitt</Description>
+        <Description lang="ENG">Hypotenuse segment</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>area_rectangle</Identifier>
+        <Symbol>A</Symbol>
+        <Description lang="DE">Rechtecksfläche</Description>
+        <Description lang="ENG">Area of a rectangle</Description>
+        <Unit>area</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>area_triangle</Identifier>
+        <Symbol>A</Symbol>
+        <Description lang="DE">Dreiecksfläche</Description>
+        <Description lang="ENG">Area of a triangle</Description>
+        <Unit>area</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>area_parallelogramm</Identifier>
+        <Symbol>A</Symbol>
+        <Description lang="DE">Parallelogrammfläche</Description>
+        <Description lang="ENG">Area of a parallelogram</Description>
+        <Unit>area</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>area_kreis</Identifier>
+        <Symbol>A</Symbol>
+        <Description lang="DE">Kreisfläche</Description>
+        <Description lang="ENG">Area of a circle</Description>
+        <Unit>area</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>area_ellipse</Identifier>
+        <Symbol>A</Symbol>
+        <Description lang="DE">Ellipsenfläche</Description>
+        <Description lang="ENG">Area of an ellipse</Description>
+        <Unit>area</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>area_trapez</Identifier>
+        <Symbol>A</Symbol>
+        <Description lang="DE">Trapezfläche</Description>
+        <Description lang="ENG">Area of a trapezoid</Description>
+        <Unit>area</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>area_raute</Identifier>
+        <Symbol>A</Symbol>
+        <Description lang="DE">Rautenfläche</Description>
+        <Description lang="ENG">Area of a rhombus</Description>
+        <Unit>area</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>area_kreissektor</Identifier>
+        <Symbol>A</Symbol>
+        <Description lang="DE">Kreissektorfläche</Description>
+        <Description lang="ENG">Area of a circular sector</Description>
+        <Unit>area</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>winkel_alpha</Identifier>
+        <Symbol>a</Symbol>
+        <Preview lang="DE">α</Preview>
+        <Description lang="DE">Winkel</Description>
+        <Description lang="ENG">Angle</Description>
+        <Unit>degree</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>length</Identifier>
+        <Symbol>a</Symbol>
+        <Description lang="DE">Länge</Description>
+        <Description lang="ENG">Length</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>width</Identifier>
+        <Symbol>b</Symbol>
+        <Description lang="DE">Breite</Description>
+        <Description lang="ENG">Width</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>width_g</Identifier>
+        <Symbol>g</Symbol>
+        <Description lang="DE">Breite</Description>
+        <Description lang="ENG">Width</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>grundseite</Identifier>
+        <Symbol>g</Symbol>
+        <Description lang="DE">Grundseite</Description>
+        <Description lang="ENG">Base</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>grundseite_a</Identifier>
+        <Symbol>a</Symbol>
+        <Description lang="DE">Grundseite</Description>
+        <Description lang="ENG">Base</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>grundseite_c</Identifier>
+        <Symbol>c</Symbol>
+        <Description lang="DE">Grundseite</Description>
+        <Description lang="ENG">Base</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>radius_maths</Identifier>
+        <Symbol>r</Symbol>
+        <Description lang="DE">Radius</Description>
+        <Description lang="ENG">Radius</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>halbachse_a</Identifier>
+        <Symbol>a</Symbol>
+        <Description lang="DE">Radius</Description>
+        <Description lang="ENG">Radius</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>halbachse_b</Identifier>
+        <Symbol>b</Symbol>
+        <Description lang="DE">Halbachse</Description>
+        <Description lang="ENG">Semiaxis</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>diagonale_e</Identifier>
+        <Symbol>o</Symbol>
+        <Preview lang="DE">e</Preview>
+        <Description lang="DE">Diagonale</Description>
+        <Description lang="ENG">Diagonal</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>diagonale_f</Identifier>
+        <Symbol>f</Symbol>
+        <Description lang="DE">Diagonale</Description>
+        <Description lang="ENG">Diagonal</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>umfang_kreis</Identifier>
+        <Symbol>U</Symbol>
+        <Description lang="DE">Kreisumfang</Description>
+        <Description lang="ENG">Circumference of a circle</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>volume_quader</Identifier>
+        <Symbol>V</Symbol>
+        <Description lang="DE">Quadervolumen</Description>
+        <Description lang="ENG">Volume of a cuboid</Description>
+        <Unit>volume</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>volume_kugel</Identifier>
+        <Symbol>V</Symbol>
+        <Description lang="DE">Kugelvolumen</Description>
+        <Description lang="ENG">Volume of a sphere</Description>
+        <Unit>volume</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>volume_kegel</Identifier>
+        <Symbol>V</Symbol>
+        <Description lang="DE">Kegelvolumen</Description>
+        <Description lang="ENG">Volume of a cone</Description>
+        <Unit>volume</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>volume_zylinder</Identifier>
+        <Symbol>V</Symbol>
+        <Description lang="DE">Zylindervolumen</Description>
+        <Description lang="ENG">Volume of a cylinder</Description>
+        <Unit>volume</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>volume_pyramide</Identifier>
+        <Symbol>V</Symbol>
+        <Description lang="DE">Pyramidenvolumen</Description>
+        <Description lang="ENG">Volume of a pyramid</Description>
+        <Unit>volume</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>surface_kugel</Identifier>
+        <Symbol>O</Symbol>
+        <Description lang="DE">Kugeloberfläche</Description>
+        <Description lang="ENG">Surface area of a sphere</Description>
+        <Unit>area</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>surface_zylinder</Identifier>
+        <Symbol>O</Symbol>
+        <Description lang="DE">Zylinderoberfläche</Description>
+        <Description lang="ENG">Surface area of a cylinder</Description>
+        <Unit>area</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>surface_kegel</Identifier>
+        <Symbol>O</Symbol>
+        <Description lang="DE">Kegeloberfläche</Description>
+        <Description lang="ENG">Surface area of a cone</Description>
+        <Unit>area</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>kantenlaenge</Identifier>
+        <Symbol>a</Symbol>
+        <Description lang="DE">Kantenlänge</Description>
+        <Description lang="ENG">Edge length</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>zylindermantel</Identifier>
+        <Symbol>M</Symbol>
+        <Description lang="DE">Zylindermantelfläche</Description>
+        <Description lang="ENG">Lateral surface area of a cylinder</Description>
+        <Unit>area</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>kegelmantel</Identifier>
+        <Symbol>M</Symbol>
+        <Description lang="DE">Kegelmantelfläche</Description>
+        <Description lang="ENG">Lateral surface area of a cone</Description>
+        <Unit>area</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>kegelmantellinie</Identifier>
+        <Symbol>s</Symbol>
+        <Description lang="DE">Kegelmantellinie</Description>
+        <Description lang="ENG">Surface line of a cone</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>sinus_alpha</Identifier>
+        <Symbol>s</Symbol>
+        <Preview lang="DE">sin(α)</Preview>
+        <Description lang="DE">Sinus</Description>
+        <Description lang="ENG">Sine</Description>
+        <Unit>none</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>cosinus_alpha</Identifier>
+        <Symbol>c</Symbol>
+        <Preview lang="DE">cos(α)</Preview>
+        <Description lang="DE">Cosinus</Description>
+        <Description lang="ENG">Cosine</Description>
+        <Unit>none</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>tangens_alpha</Identifier>
+        <Symbol>t</Symbol>
+        <Preview lang="DE">tan(α)</Preview>
+        <Description lang="DE">Tangens</Description>
+        <Description lang="ENG">Tangent</Description>
+        <Unit>none</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>cotangens_alpha</Identifier>
+        <Symbol>a</Symbol>
+        <Preview lang="DE">cot(α)</Preview>
+        <Description lang="DE">Kotangens</Description>
+        <Description lang="ENG">Cotangent</Description>
+        <Unit>none</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>hypotenuse</Identifier>
+        <Symbol>H</Symbol>
+        <Description lang="DE">Hypotenuse</Description>
+        <Description lang="ENG">Hypotenuse</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>ankathete</Identifier>
+        <Symbol>A</Symbol>
+        <Description lang="DE">Ankathete</Description>
+        <Description lang="ENG">Adjacent side</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>gegenkathete</Identifier>
+        <Symbol>G</Symbol>
+        <Description lang="DE">Gegenkathete</Description>
+        <Description lang="ENG">Opposite side</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>bogenlaenge</Identifier>
+        <Symbol>b</Symbol>
+        <Description lang="DE">Bogenlänge</Description>
+        <Description lang="ENG">Arc length</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable const="3.14159265359" constPreviewDE="3,14159265359">
+        <Field>maths</Field>
+        <Identifier>pi</Identifier>
+        <Symbol>p</Symbol>
+        <Preview lang="DE">π</Preview>
+        <Description lang="DE">Pi</Description>
+        <Description lang="ENG">Pi</Description>
+        <Unit>none</Unit>
+    </Variable>
+
+    <Variable const="2.71828182845" constPreviewDE="2,71828182845">
+        <Field>maths</Field>
+        <Identifier>euler</Identifier>
+        <Symbol>e</Symbol>
+        <Description lang="DE">Eulersche Zahl</Description>
+        <Description lang="ENG">Euler's number</Description>
+        <Unit>none</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>pi</Identifier>
+        <Symbol>π</Symbol>
+        <Description lang="DE">Pi</Description>
+        <Description lang="ENG">Pi</Description>
+        <Unit>none</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>umfang_rechteck</Identifier>
+        <Symbol>U</Symbol>
+        <Description lang="DE">Rechtecksumfang</Description>
+        <Description lang="ENG">Circumference of  a rectangle</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>umfang_neck</Identifier>
+        <Symbol>U</Symbol>
+        <Description lang="DE">Umfang eines gleichseitigen n-Ecks</Description>
+        <Description lang="ENG">Perimeter of a equilateral n-gon</Description>
+        <Unit>length</Unit>
+    </Variable>
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>anzahl_seiten</Identifier>
+        <Symbol>n</Symbol>
+        <Description lang="DE">Seitenanzahl</Description>
+        <Description lang="ENG">Number of sides</Description>
+        <Unit>none</Unit>
+    </Variable>
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>seitenlength</Identifier>
+        <Symbol>a</Symbol>
+        <Description lang="DE">Seitenlänge</Description>
+        <Description lang="ENG">Length of the sides</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>diagonale</Identifier>
+        <Symbol>d</Symbol>
+        <Description lang="DE">Diagonale</Description>
+        <Description lang="ENG">Diagonal</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>area_gleichseitig</Identifier>
+        <Symbol>A</Symbol>
+        <Description lang="DE">Fläche eines gleichseitigen Dreiecks</Description>
+        <Description lang="ENG">Area of  a equilateral triangle</Description>
+        <Unit>area</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>raumdiagonale</Identifier>
+        <Symbol>dr</Symbol>
+        <Preview lang="DE">dᵣ</Preview>
+        <Description lang="DE">Raumdiagonale</Description>
+        <Description lang="ENG">Space diagonal</Description>
+        <Unit>length</Unit>
+    </Variable>
+    <Variable>
+        <Field>maths</Field>
+        <Identifier>flaechendiagonale</Identifier>
+        <Symbol>d</Symbol>
+        <Description lang="DE">Flächendiagonale der Grundfläche</Description>
+        <Description lang="ENG">Face diagonal</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>velocity</Identifier>
+        <Symbol>v</Symbol>
+        <Description lang="DE">Geschwindigkeit</Description>
+        <Description lang="ENG">Velocity</Description>
+        <Unit>velocity</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>distance</Identifier>
+        <Symbol>s</Symbol>
+        <Description lang="DE">Strecke</Description>
+        <Description lang="ENG">Distance</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>time</Identifier>
+        <Symbol>t</Symbol>
+        <Description lang="DE">Zeit</Description>
+        <Description lang="ENG">Time</Description>
+        <Unit>time</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>acceleration</Identifier>
+        <Symbol>a</Symbol>
+        <Description lang="DE">Beschleunigung</Description>
+        <Description lang="ENG">Acceleration</Description>
+        <Unit>acceleration</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>impulse</Identifier>
+        <Symbol>p</Symbol>
+        <Description lang="DE">Impuls</Description>
+        <Description lang="ENG">Impulse</Description>
+        <Unit>impulse</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>mass</Identifier>
+        <Symbol>m</Symbol>
+        <Description lang="DE">Masse</Description>
+        <Description lang="ENG">Mass</Description>
+        <Unit>mass</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>auslenkung</Identifier>
+        <Symbol>y</Symbol>
+        <Description lang="DE">Auslenkung</Description>
+        <Description lang="ENG">Deflection</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>amplitude</Identifier>
+        <Symbol>A</Symbol>
+        <Description lang="DE">Amplitude</Description>
+        <Description lang="ENG">Amplitude</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>periodendauer</Identifier>
+        <Symbol>T</Symbol>
+        <Description lang="DE">Periodendauer</Description>
+        <Description lang="ENG">Cycle duration</Description>
+        <Unit>time</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>force</Identifier>
+        <Symbol>F</Symbol>
+        <Description lang="DE">Kraft</Description>
+        <Description lang="ENG">Force</Description>
+        <Unit>force</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>force_gewicht</Identifier>
+        <Symbol>F</Symbol>
+        <Description lang="DE">Gewichtskraft</Description>
+        <Description lang="ENG">Weight force</Description>
+        <Unit>force</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>force_zentripetal</Identifier>
+        <Symbol>F</Symbol>
+        <Description lang="DE">Zentripetalkraft</Description>
+        <Description lang="ENG">Centripetal force</Description>
+        <Unit>force</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>force_gravi</Identifier>
+        <Symbol>F</Symbol>
+        <Description lang="DE">Gravitationskraft</Description>
+        <Description lang="ENG">Gravitational force</Description>
+        <Unit>force</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>gvariable</Identifier>
+        <Symbol>g</Symbol>
+        <Description lang="DE">Fallbeschleunigung</Description>
+        <Description lang="ENG">Gravitational acceleration</Description>
+        <Unit>acceleration</Unit>
+    </Variable>
+
+    <Variable const="9.81" constPreviewDE="9,81">
+        <Field>physics</Field>
+        <Identifier>gconstant</Identifier>
+        <Symbol>g</Symbol>
+        <Description lang="DE">Fallbeschleunigung (Erde)</Description>
+        <Description lang="ENG">Gravitational acceleration (Earth)</Description>
+        <Unit>acceleration</Unit>
+    </Variable>
+
+    <Variable const="-273.15" constPreviewDE="-273,15">
+        <Field>physics</Field>
+        <Identifier>nullp</Identifier>
+        <Symbol>T</Symbol>
+        <Preview lang="DE">T₀</Preview>
+        <Description lang="DE">Absoluter Nullpunkt</Description>
+        <Description lang="ENG">Point of absolute zero</Description>
+        <Unit>celsius</Unit>
+    </Variable>
+
+    <Variable const="343" constPreviewDE="343">
+        <Field>physics</Field>
+        <Identifier>schall</Identifier>
+        <Symbol>c</Symbol>
+        <Description lang="DE">Schallgeschwindigkeit in Luft</Description>
+        <Description lang="ENG">Speed of sound (air)</Description>
+        <Unit>schall</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>winkelgeschwindigkeit</Identifier>
+        <Symbol>o</Symbol>
+        <Preview lang="DE">ω</Preview>
+        <Description lang="DE">Winkelgeschwindigkeit</Description>
+        <Description lang="ENG">Angular velocity</Description>
+        <Unit>winkelgeschwindigkeit</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>radius_physics</Identifier>
+        <Symbol>r</Symbol>
+        <Description lang="DE">Radius</Description>
+        <Description lang="ENG">Radius</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>energy</Identifier>
+        <Symbol>E</Symbol>
+        <Description lang="DE">Energie</Description>
+        <Description lang="ENG">Energy</Description>
+        <Unit>energy</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>energy_kinetic</Identifier>
+        <Symbol>E</Symbol>
+        <Description lang="DE">Kinetische Energie</Description>
+        <Description lang="ENG">Kinetic energy</Description>
+        <Unit>energy</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>energy_spann</Identifier>
+        <Symbol>E</Symbol>
+        <Description lang="DE">Spannenergie</Description>
+        <Description lang="ENG">Clamping energy</Description>
+        <Unit>energy</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>energy_pot</Identifier>
+        <Symbol>E</Symbol>
+        <Description lang="DE">Potentielle Energie</Description>
+        <Description lang="ENG">Potential energy</Description>
+        <Unit>energy</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>energy_innere_change</Identifier>
+        <Symbol>vE</Symbol>
+        <Preview lang="DE">ΔE</Preview>
+        <Description lang="DE">Änderung der inneren Energie</Description>
+        <Description lang="ENG">Change of internal energy</Description>
+        <Unit>energy</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>federconst</Identifier>
+        <Symbol>D</Symbol>
+        <Description lang="DE">Federkonstante</Description>
+        <Description lang="ENG">Spring constant</Description>
+        <Unit>feder</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>height_physics</Identifier>
+        <Symbol>h</Symbol>
+        <Description lang="DE">Höhe</Description>
+        <Description lang="ENG">Height</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable const="299792458" constPreviewDE="299.792.458">
+        <Field>physics</Field>
+        <Identifier>light</Identifier>
+        <Symbol>c</Symbol>
+        <Description lang="DE">Vakuumlichtgeschwindigkeit</Description>
+        <Description lang="ENG">Speed of light (vacuum)</Description>
+        <Unit>light</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>velocity_x</Identifier>
+        <Symbol>v</Symbol>
+        <Preview lang="DE">vₓ</Preview>
+        <Description lang="DE">Geschwindigkeit in x-Richtung</Description>
+        <Description lang="ENG">Velocity in x-direction</Description>
+        <Unit>velocity</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>distance_x</Identifier>
+        <Symbol>x</Symbol>
+        <Description lang="DE">Strecke in x-Richtung</Description>
+        <Description lang="ENG">Distance in x-Direction</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>distance_y</Identifier>
+        <Symbol>y</Symbol>
+        <Description lang="DE">Strecke in y-Richtung</Description>
+        <Description lang="ENG">Distance in y-Direction</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>umlaufdauer</Identifier>
+        <Symbol>T</Symbol>
+        <Description lang="DE">Umlaufdauer</Description>
+        <Description lang="ENG">Circulation term</Description>
+        <Unit>time</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>waermecap</Identifier>
+        <Symbol>c</Symbol>
+        <Description lang="DE">Spezifische Wärmekapazität</Description>
+        <Description lang="ENG">Specific warmth capacity</Description>
+        <Unit>waermecap</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>tempdif</Identifier>
+        <Symbol>vV</Symbol>
+        <Preview lang="DE">Δϑ</Preview>
+        <Description lang="DE">Temperaturdifferenz</Description>
+        <Description lang="ENG">Difference in temperature</Description>
+        <Unit>temperature</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>work</Identifier>
+        <Symbol>W</Symbol>
+        <Description lang="DE">Arbeit</Description>
+        <Description lang="ENG">Work</Description>
+        <Unit>work</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>work_mechanic</Identifier>
+        <Symbol>W</Symbol>
+        <Description lang="DE">Mechanische Arbeit</Description>
+        <Description lang="ENG">Mechanical work</Description>
+        <Unit>work</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>work_electric</Identifier>
+        <Symbol>W</Symbol>
+        <Description lang="DE">Elektrische Arbeit</Description>
+        <Description lang="ENG">Electrical work</Description>
+        <Unit>work</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>voltage</Identifier>
+        <Symbol>U</Symbol>
+        <Description lang="DE">Spannung</Description>
+        <Description lang="ENG">Voltage</Description>
+        <Unit>voltage</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>stromstaerke</Identifier>
+        <Symbol>I</Symbol>
+        <Description lang="DE">Stromstärke</Description>
+        <Description lang="ENG">Amperage</Description>
+        <Unit>stromstaerke</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>power_mechanic</Identifier>
+        <Symbol>P</Symbol>
+        <Description lang="DE">Mechanische Leistung</Description>
+        <Description lang="ENG">Mechanical power</Description>
+        <Unit>power</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>power_electric</Identifier>
+        <Symbol>P</Symbol>
+        <Description lang="DE">Elektrische Leistung</Description>
+        <Description lang="ENG">Electrical power</Description>
+        <Unit>power</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>pressure</Identifier>
+        <Symbol>p</Symbol>
+        <Description lang="DE">Druck</Description>
+        <Description lang="ENG">Pressure</Description>
+        <Unit>pressure</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>area</Identifier>
+        <Symbol>A</Symbol>
+        <Description lang="DE">Fläche</Description>
+        <Description lang="ENG">Area</Description>
+        <Unit>area</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>density</Identifier>
+        <Symbol>p</Symbol>
+        <Preview lang="DE">ρ</Preview>
+        <Description lang="DE">Dichte</Description>
+        <Description lang="ENG">Density</Description>
+        <Unit>density</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>volume</Identifier>
+        <Symbol>V</Symbol>
+        <Description lang="DE">Volumen</Description>
+        <Description lang="ENG">Volume</Description>
+        <Unit>volume</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>resistance</Identifier>
+        <Symbol>R</Symbol>
+        <Description lang="DE">Widerstand</Description>
+        <Description lang="ENG">Resistance</Description>
+        <Unit>ohm</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>ladung_bewegt</Identifier>
+        <Symbol>Q</Symbol>
+        <Description lang="DE">Bewegte Ladung</Description>
+        <Description lang="ENG">Moved charge</Description>
+        <Unit>charge</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>frequency</Identifier>
+        <Symbol>f</Symbol>
+        <Description lang="DE">Frequenz</Description>
+        <Description lang="ENG">Frequency</Description>
+        <Unit>frequency</Unit>
+    </Variable>
+
+    <Variable const="[G.]" constPreviewDE="6,67408 · 10⁻¹¹">
+        <Field>physics</Field>
+        <Identifier>gravconst</Identifier>
+        <Symbol>G</Symbol>
+        <Description lang="DE">Gravitationskonstante</Description>
+        <Description lang="ENG">Gravitational constant</Description>
+        <Unit>gravi</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>mass1</Identifier>
+        <Preview lang="DE">m₁</Preview>
+        <Symbol>m1</Symbol>
+        <Description lang="DE">Masse</Description>
+        <Description lang="ENG">Mass</Description>
+        <Unit>mass</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>mass2</Identifier>
+        <Symbol>m2</Symbol>
+        <Preview lang="DE">m₂</Preview>
+        <Description lang="DE">Masse</Description>
+        <Description lang="ENG">Mass</Description>
+        <Unit>mass</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>abstand</Identifier>
+        <Symbol>r</Symbol>
+        <Description lang="DE">Abstand</Description>
+        <Description lang="ENG">Distance</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>phasengeschwindigkeit</Identifier>
+        <Symbol>v</Symbol>
+        <Description lang="DE">Phasengeschwindigkeit</Description>
+        <Description lang="ENG">Phase velocity</Description>
+        <Unit>velocity</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>wavelength</Identifier>
+        <Symbol>l</Symbol>
+        <Preview lang="DE">λ</Preview>
+        <Description lang="DE">Wellenlänge</Description>
+        <Description lang="ENG">Wavelength</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>time_system</Identifier>
+        <Symbol>r</Symbol>
+        <Preview lang="DE">Δt'</Preview>
+        <Description lang="DE">Zeit im Eigensystem</Description>
+        <Description lang="ENG">Time inside the system</Description>
+        <Unit>time</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>time_change</Identifier>
+        <Symbol>t</Symbol>
+        <Preview lang="DE">Δt</Preview>
+        <Description lang="DE">Zeit</Description>
+        <Description lang="ENG">Time</Description>
+        <Unit>time</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>capacity</Identifier>
+        <Symbol>G</Symbol>
+        <Preview lang="DE">C</Preview>
+        <Description lang="DE">Kapazität</Description>
+        <Description lang="ENG">Capacity</Description>
+        <Unit>farad</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>charge_kondensator</Identifier>
+        <Symbol>Q</Symbol>
+        <Description lang="DE">Kondensatorladung</Description>
+        <Description lang="ENG">Charge of a condensator</Description>
+        <Unit>charge</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>voltage_kondensator</Identifier>
+        <Symbol>U</Symbol>
+        <Description lang="DE">Kondensatorspannung</Description>
+        <Description lang="ENG">Voltage of a condensator</Description>
+        <Unit>voltage</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>leitwert</Identifier>
+        <Symbol>G</Symbol>
+        <Description lang="DE">Elektrischer Leitwert</Description>
+        <Description lang="ENG">Electrical conductance</Description>
+        <Unit>siemens</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>acceleration_zentral</Identifier>
+        <Symbol>a</Symbol>
+        <Preview lang="DE">az</Preview>
+        <Description lang="DE">Zentralbeschleunigung</Description>
+        <Description lang="ENG">Centripetal acceleration</Description>
+        <Unit>zentralbeschleunigung</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>force_feder</Identifier>
+        <Symbol>F</Symbol>
+        <Description lang="DE">Federkraft</Description>
+        <Description lang="ENG">Spring force</Description>
+        <Unit>force</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>kelvin</Identifier>
+        <Symbol>K</Symbol>
+        <Description lang="DE">Temperatur in Kelvin</Description>
+        <Description lang="ENG">Temperature in Kelvin</Description>
+        <Unit>temperature</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>celsius</Identifier>
+        <Symbol>G</Symbol>
+        <Preview lang="DE">C</Preview>
+        <Description lang="DE">Temperatur in Grad Celsius</Description>
+        <Description lang="ENG">Temperature in degrees Celsius</Description>
+        <Unit>celsius</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>length_physics</Identifier>
+        <Symbol>l</Symbol>
+        <Description lang="DE">Länge</Description>
+        <Description lang="ENG">Length</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>length_physics_system</Identifier>
+        <Symbol>k</Symbol>
+        <Preview lang="DE">l'</Preview>
+        <Description lang="DE">Länge im Eigensystem</Description>
+        <Description lang="ENG">Length inside the system</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>force_normal</Identifier>
+        <Symbol>F</Symbol>
+        <Description lang="DE">Normalkraft</Description>
+        <Description lang="ENG">Normal force</Description>
+        <Unit>force</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>winkel_alpha_steigung</Identifier>
+        <Symbol>a</Symbol>
+        <Preview lang="DE">α</Preview>
+        <Description lang="DE">Steigungswinkel</Description>
+        <Description lang="ENG">Slope</Description>
+        <Unit>degree</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>force_hang</Identifier>
+        <Symbol>F</Symbol>
+        <Description lang="DE">Hangabtriebskraft</Description>
+        <Description lang="ENG">Downhill force</Description>
+        <Unit>force</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>leitfaehigkeit</Identifier>
+        <Symbol>o</Symbol>
+        <Preview lang="DE">σ</Preview>
+        <Description lang="DE">Elektrische Leitfähigkeit</Description>
+        <Description lang="ENG">Electric conductivity</Description>
+        <Unit>leitfaehigkeit</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>resistance_spezifisch</Identifier>
+        <Symbol>p</Symbol>
+        <Preview lang="DE">ρ</Preview>
+        <Description lang="DE">Spezifischer Widerstand</Description>
+        <Description lang="ENG">Specific resistance</Description>
+        <Unit>resistance_spec</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>gangunterschied</Identifier>
+        <Symbol>s</Symbol>
+        <Preview lang="DE">Δs</Preview>
+        <Description lang="DE">Gangunterschied</Description>
+        <Description lang="ENG">Path difference</Description>
+        <Unit>none</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>ganze_zahl_ordnung</Identifier>
+        <Symbol>k</Symbol>
+        <Description lang="DE">Ganzzahlige Ordnung des Maximums</Description>
+        <Description lang="ENG">Order of the maximum</Description>
+        <Unit>none</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>abstand_sender</Identifier>
+        <Symbol>b</Symbol>
+        <Description lang="DE">Abstand der Sender</Description>
+        <Description lang="ENG">Distance between the emitters</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>winkel_alpha_physics</Identifier>
+        <Symbol>a</Symbol>
+        <Preview lang="DE">α</Preview>
+        <Description lang="DE">Winkel</Description>
+        <Description lang="ENG">Angle</Description>
+        <Unit>degree</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>verbrennungswaerme</Identifier>
+        <Symbol>Q</Symbol>
+        <Description lang="DE">Verbrennungswärme</Description>
+        <Description lang="ENG">Heat of cumbustion</Description>
+        <Unit>burn_heat</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>heat_value</Identifier>
+        <Symbol>H</Symbol>
+        <Description lang="DE">Heizwert</Description>
+        <Description lang="ENG">Heat value</Description>
+        <Unit>heat_value</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>force_friction_slide</Identifier>
+        <Symbol>R</Symbol>
+        <Preview lang="DE">FR</Preview>
+        <Description lang="DE">Gleitreibungskraft</Description>
+        <Description lang="ENG">Sliding friction force</Description>
+        <Unit>force</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>gleitreibung_zahl</Identifier>
+        <Symbol>u</Symbol>
+        <Preview lang="DE">μ</Preview>
+        <Description lang="DE">Gleitreibungszahl</Description>
+        <Description lang="ENG">Coefficient of sliding friction</Description>
+        <Unit>none</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>force_friction_static</Identifier>
+        <Symbol>R</Symbol>
+        <Preview lang="DE">FR'</Preview>
+        <Description lang="DE">Haftreibungskraft</Description>
+        <Description lang="ENG">Static friction force</Description>
+        <Unit>force</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>haftreibung_zahl</Identifier>
+        <Symbol>u</Symbol>
+        <Preview lang="DE">μ</Preview>
+        <Description lang="DE">Haftreibungszahl</Description>
+        <Description lang="ENG">Coefficient of static friction</Description>
+        <Unit>none</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>volume_physics</Identifier>
+        <Symbol>V</Symbol>
+        <Description lang="DE">Volumen</Description>
+        <Description lang="ENG">Volume</Description>
+        <Unit>volume</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>wichte</Identifier>
+        <Symbol>y</Symbol>
+        <Preview lang="DE">γ</Preview>
+        <Description lang="DE">Wichte</Description>
+        <Description lang="ENG">Specific weight</Description>
+        <Unit>wichte</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>moment_of_spinning</Identifier>
+        <Symbol>M</Symbol>
+        <Description lang="DE">Drehmoment</Description>
+        <Description lang="ENG">Torsional moment</Description>
+        <Unit>work</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>hebelarm</Identifier>
+        <Symbol>l</Symbol>
+        <Description lang="DE">Hebelarm</Description>
+        <Description lang="ENG">Length of the lever</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>force_auftrieb</Identifier>
+        <Symbol>F</Symbol>
+        <Description lang="DE">Auftriebskraft</Description>
+        <Description lang="ENG">Buoyant force</Description>
+        <Unit>force</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>density_alternative</Identifier>
+        <Symbol>d</Symbol>
+        <Preview lang="DE">ρ</Preview>
+        <Description lang="DE">Dichte</Description>
+        <Description lang="ENG">Density</Description>
+        <Unit>density</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>hoehe_der_Fls</Identifier>
+        <Symbol>h</Symbol>
+        <Description lang="DE">Höhe der Flüssigkeitssäule</Description>
+        <Description lang="ENG">Height of a fluid column</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>leist_one</Identifier>
+        <Symbol>P₁</Symbol>
+        <Description lang="DE">Nutzleistung</Description>
+        <Description lang="ENG">Power utilized</Description>
+        <Unit>power</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>leist_two</Identifier>
+        <Symbol>P₂</Symbol>
+        <Description lang="DE">Zugeführte Leistung</Description>
+        <Description lang="ENG">Power input</Description>
+        <Unit>power</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>wirk_grad</Identifier>
+        <Symbol>p</Symbol>
+        <Preview lang="DE">η</Preview>
+        <Description lang="DE">Wirkungsgrad</Description>
+        <Description lang="ENG">Degree of efficiency</Description>
+        <Unit>none</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>elongation_auslnkg</Identifier>
+        <Symbol>y</Symbol>
+        <Description lang="DE">Auslenkung</Description>
+        <Description lang="ENG">Deflection</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>change_of_resistance</Identifier>
+        <Symbol>vR</Symbol>
+        <Preview lang="DE">∆R</Preview>
+        <Description lang="DE">Widerstandsänderung</Description>
+        <Description lang="ENG">Change in resistance</Description>
+        <Unit>ohm</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>value_of_temp</Identifier>
+        <Symbol>a</Symbol>
+        <Preview lang="DE">α</Preview>
+        <Description lang="DE">Temperaturbeiwert</Description>
+        <Description lang="ENG">Temperature coefficient</Description>
+        <Unit>tempvalue</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>change_temp</Identifier>
+        <Symbol>vT</Symbol>
+        <Preview lang="DE">∆T</Preview>
+        <Description lang="DE">Temperaturänderung</Description>
+        <Description lang="ENG">Change in temperature</Description>
+        <Unit>temperature</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>specflow</Identifier>
+        <Symbol>k</Symbol>
+        <Preview lang="DE">κ</Preview>
+        <Description lang="DE">Spezifischer Leitwert</Description>
+        <Description lang="ENG">Specific conductivity</Description>
+        <Unit>specflow</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>power_of_elec_fieldI</Identifier>
+        <Symbol>E</Symbol>
+        <Description lang="DE">Elektrische Feldstärke</Description>
+        <Description lang="ENG">Strength of the electric field</Description>
+        <Unit>elecfieldI</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>charge</Identifier>
+        <Symbol>C</Symbol>
+        <Description lang="DE">Ladung</Description>
+        <Description lang="ENG">Charge</Description>
+        <Unit>charge</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>distance_plates</Identifier>
+        <Symbol>d</Symbol>
+        <Description lang="DE">Plattenabstand</Description>
+        <Description lang="ENG">Distance between the plates</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>mag_river_density</Identifier>
+        <Symbol>B</Symbol>
+        <Description lang="DE">Magnetische Flussdichte</Description>
+        <Description lang="ENG">Density of the magnetic flow</Description>
+        <Unit>magflow</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>energy_for_aggregI</Identifier>
+        <Symbol>Q</Symbol>
+        <Description lang="DE">Energie zum Schmelzen/Erstarren</Description>
+        <Description lang="ENG">Energy to melt / freeze</Description>
+        <Unit>energy</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>spez_melt_frost_temp</Identifier>
+        <Symbol>q</Symbol>
+        <Description lang="DE">Spezifische Schmelzwärme/Erstarrungswärme</Description>
+        <Description lang="ENG">Specific warmth to melt / freeze</Description>
+        <Unit>spectemp</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>energie_for_aggregII</Identifier>
+        <Symbol>Q</Symbol>
+        <Description lang="DE">Energie zum Verdampfen/Kondensieren</Description>
+        <Description lang="ENG">Energy to vaporize / condensate</Description>
+        <Unit>energy</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>spez_dampf_konden_temp</Identifier>
+        <Symbol>q</Symbol>
+        <Description lang="DE">Spezifische Verdampfungswärme/Kondensationswärme</Description>
+        <Description lang="ENG">Specific warmth to vaporize / condensate</Description>
+        <Unit>spectemp</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>mass_ato</Identifier>
+        <Symbol>ma</Symbol>
+        <Description lang="DE">Atommasse</Description>
+        <Description lang="ENG">Mass of an atom</Description>
+        <Unit>mass</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>mass_ato_rel</Identifier>
+        <Symbol>A</Symbol>
+        <Description lang="DE">Relative Atommasse</Description>
+        <Description lang="ENG">Relative mass of an atom</Description>
+        <Unit>none</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>activity</Identifier>
+        <Symbol>A</Symbol>
+        <Preview lang="DE">A(t)</Preview>
+        <Description lang="DE">Aktivität zum Zeitpunkt t</Description>
+        <Description lang="ENG">Activity at time t</Description>
+        <Unit>activity</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>zerfallsconst</Identifier>
+        <Symbol>h</Symbol>
+        <Preview lang="DE">λ</Preview>
+        <Description lang="DE">Zerfallskonstante</Description>
+        <Description lang="ENG">Decay constant</Description>
+        <Unit>zerfallsconst</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>zerf_ato</Identifier>
+        <Symbol>N</Symbol>
+        <Description lang="DE">Zerfallfähige Atome zum Zeitpunkt t</Description>
+        <Description lang="ENG">Atoms able to decay at time t</Description>
+        <Unit>none</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>force_reibung_spherical</Identifier>
+        <Symbol>F</Symbol>
+        <Preview lang="DE">FR</Preview>
+        <Description lang="DE">Reibungskraft des sphärischen Körpers</Description>
+        <Description lang="ENG">Friction force of a spherical body</Description>
+        <Unit>force</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>radius_particle</Identifier>
+        <Symbol>r</Symbol>
+        <Description lang="DE">Partikelradius</Description>
+        <Description lang="ENG">Particle radius</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>viskositas</Identifier>
+        <Symbol>n</Symbol>
+        <Preview lang="DE">η</Preview>
+        <Description lang="DE">Viskosität des Fluids</Description>
+        <Description lang="ENG">Viscosity of the fluid</Description>
+        <Unit>viskos</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>lifespan</Identifier>
+        <Symbol>t</Symbol>
+        <Preview lang="DE">τ</Preview>
+        <Description lang="DE">Mittlere Lebensdauer</Description>
+        <Description lang="ENG">Average lifespan</Description>
+        <Unit>time</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>energy_kon</Identifier>
+        <Symbol>W</Symbol>
+        <Description lang="DE">Energie im Kondensator</Description>
+        <Description lang="ENG">Energy in the condensator</Description>
+        <Unit>energy</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>voltage_kon</Identifier>
+        <Symbol>U</Symbol>
+        <Description lang="DE">Kondensatorspannung</Description>
+        <Description lang="ENG">Voltage of the condensator</Description>
+        <Unit>voltage</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>amperage_kon</Identifier>
+        <Symbol>I</Symbol>
+        <Description lang="DE">Anfangsladestrom eines Kondensators</Description>
+        <Description lang="ENG">Initial charging current</Description>
+        <Unit>amperage</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physiks</Field>
+        <Identifier>elek_feldstaerke</Identifier>
+        <Symbol>E</Symbol>
+        <Description lang="DE">Elektrische Feldstärke eines Plattenkondensators</Description>
+        <Description lang="ENG">Electric field strength of a plate capacitor</Description>
+        <Unit>volt_meter</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physiks</Field>
+        <Identifier>abstand_platten</Identifier>
+        <Symbol>d</Symbol>
+        <Description lang="DE">Plattenabstand</Description>
+        <Description lang="ENG">Distance between the plates</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>charge_Q</Identifier>
+        <Symbol>Q</Symbol>
+        <Description lang="DE">Ladung</Description>
+        <Description lang="ENG">Charge</Description>
+        <Unit>charge</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>charge_q</Identifier>
+        <Symbol>q</Symbol>
+        <Description lang="DE">Ladung</Description>
+        <Description lang="ENG">Charge</Description>
+        <Unit>charge</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>flaechen_ladungs_dichte</Identifier>
+        <Symbol>o</Symbol>
+        <Preview lang="DE">σ</Preview>
+        <Description lang="DE">Flächenladungsdichte</Description>
+        <Description lang="ENG">Surface charge density</Description>
+        <Unit>columb_meter</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>force_geladene_Koerper</Identifier>
+        <Symbol>F</Symbol>
+        <Description lang="DE">Kraft zwischen geladenen Körpern</Description>
+        <Description lang="ENG">Force between charged bodies</Description>
+        <Unit>force</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>ladung1</Identifier>
+        <Symbol>Q1</Symbol>
+        <Description lang="DE">Ladung des ersten Körpers</Description>
+        <Description lang="ENG">Charge of the first body</Description>
+        <Unit>charge</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>ladung2</Identifier>
+        <Symbol>Q2</Symbol>
+        <Description lang="DE">Ladung des zweiten Körpers</Description>
+        <Description lang="ENG">Charge of the second body</Description>
+        <Unit>charge</Unit>
+    </Variable>
+
+    <Variable const="8.854187*[p]" constPreviewDE="8,854187·10⁻¹²">
+        <Field>physics</Field>
+        <Identifier>die_elektrizitaetskonstante</Identifier>
+        <Symbol>Ep</Symbol>
+        <Preview lang="DE">ε₀</Preview>
+        <Description lang="DE">Elektrizitätskonstante</Description>
+        <Description lang="ENG">Electricity constant</Description>
+        <Unit>elconst</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>feldstaerke_radial</Identifier>
+        <Symbol>E</Symbol>
+        <Description lang="DE">Feldstärke im Radialfeld</Description>
+        <Description lang="ENG">Field strength in a radial field</Description>
+        <Unit>feldstaerke</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>elek_potential</Identifier>
+        <Symbol>p</Symbol>
+        <Preview lang="DE">φ</Preview>
+        <Description lang="DE">Elektrisches Potential</Description>
+        <Description lang="ENG">Electric potential</Description>
+        <Unit>voltage</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>voltage_max</Identifier>
+        <Symbol>Um</Symbol>
+        <Preview lang="DE">Uₘₐₓ</Preview>
+        <Description lang="DE">Maximale Spannung</Description>
+        <Description lang="ENG">Maximum voltage</Description>
+        <Unit>voltage</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>stromstaerke_max</Identifier>
+        <Symbol>Im</Symbol>
+        <Preview lang="DE">Iₘₐₓ</Preview>
+        <Description lang="DE">Maximale Stromstärke</Description>
+        <Description lang="ENG">Maximum amperage</Description>
+        <Unit>stromstaerke</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>waerme_widerstand</Identifier>
+        <Symbol>R</Symbol>
+        <Description lang="DE">Wärmewiderstand</Description>
+        <Description lang="ENG">Thermal resistance</Description>
+        <Unit>kelvin_watt</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>spez_waerme_widerstand</Identifier>
+        <Symbol>P</Symbol>
+        <Description lang="DE">Spezifischer Wärmewiderstand</Description>
+        <Description lang="ENG">Specific thermal resistance</Description>
+        <Unit>kelvin_watt</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>waermeleiter_querschnitt</Identifier>
+        <Symbol>A</Symbol>
+        <Description lang="DE">Wärmeleiterquerschnitt</Description>
+        <Description lang="ENG">Heat conductor cross-section</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>waerme_fluss</Identifier>
+        <Symbol>Q</Symbol>
+        <Description lang="DE">Wärmefluss</Description>
+        <Description lang="ENG">Thermal flux</Description>
+        <Unit>power</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>velocity_m</Identifier>
+        <Symbol>ms</Symbol>
+        <Description lang="DE">Geschwindigkeit in Meter pro Sekunde</Description>
+        <Description lang="ENG">Velocity in meters per second</Description>
+        <Unit>velocitym</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>velocity_km</Identifier>
+        <Symbol>km</Symbol>
+        <Description lang="DE">Geschwindigkeit in Kilometer pro Stunde</Description>
+        <Description lang="ENG">Velocity in kilometers per second</Description>
+        <Unit>velocitykm</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>laenge_waermeleiter</Identifier>
+        <Symbol>L</Symbol>
+        <Description lang="DE">Länge des Wärmeleiters</Description>
+        <Description lang="ENG">Length of the heat conductor</Description>
+        <Unit>length</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>waermecap_konst_druck</Identifier>
+        <Symbol>c</Symbol>
+        <Description lang="DE">Spezifische Wärmekapazität bei konstantem Druck</Description>
+        <Description lang="ENG">Specific heat capacity at constant pressure</Description>
+        <Unit>waermecap</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>ausgetauschte_waereme</Identifier>
+        <Symbol>Q</Symbol>
+        <Description lang="DE">Ausgetauschte Wärmemenge</Description>
+        <Description lang="ENG">Exchanged thermal energy</Description>
+        <Unit>energy</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>aenderung_temp</Identifier>
+        <Symbol>vT</Symbol>
+        <Preview lang="DE">ΔT</Preview>
+        <Description lang="DE">Änderung der absoluten Temperatur</Description>
+        <Description lang="ENG">Change in absolute temperature</Description>
+        <Unit>temperature</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>physics</Field>
+        <Identifier>waermecap_konst_vol</Identifier>
+        <Symbol>c</Symbol>
+        <Description lang="DE">Spezifische Wärmekapazität bei konstantem Volumen</Description>
+        <Description lang="ENG">Specific heat capacity at constant volume</Description>
+        <Unit>waermecap</Unit>
+    </Variable>
+
+    <Variable const="[hP]" constPreviewDE="3,63 · 10⁻³⁴">
+        <Field>physics</Field>
+        <Identifier>plank</Identifier>
+        <Symbol>h</Symbol>
+        <Description lang="DE">Planck'sches Wirkungsquantum</Description>
+        <Description lang="ENG">Planck constant</Description>
+        <Unit>planck</Unit>
+    </Variable>
+
+    <Variable const="0.16*[a]" constPreviewDE="1,60 · 10⁻¹⁹">
+        <Field>physics</Field>
+        <Identifier>elcharge</Identifier>
+        <Symbol>e</Symbol>
+        <Description lang="DE">Elementarladung</Description>
+        <Description lang="ENG">Elemental charge</Description>
+        <Unit>charge</Unit>
+    </Variable>
+
+    <Variable const="13.8064852*[y]" constPreviewDE="1,38064852 · 10⁻²³">
+        <Field>physics</Field>
+        <Identifier>boltzmann</Identifier>
+        <Symbol>k</Symbol>
+        <Description lang="DE">Boltzmann-Konstante</Description>
+        <Description lang="ENG">Boltzmann-constant</Description>
+        <Unit>boltzmann</Unit>
+    </Variable>
+
+    <Variable const="0.001660539040*[y]" constPreviewDE="1,660539040 · 10⁻²⁷">
+        <Field>physics</Field>
+        <Identifier>atommass</Identifier>
+        <Symbol>u</Symbol>
+        <Description lang="DE">Atomare Masseneinheit</Description>
+        <Description lang="ENG">Unified atomic mass unit</Description>
+        <Unit>particlemass</Unit>
+    </Variable>
+
+    <Variable const="0.000000910938*[y]" constPreviewDE="9,10938356 · 10⁻³¹">
+        <Field>physics</Field>
+        <Identifier>Elektronenmasse</Identifier>
+        <Symbol>me</Symbol>
+        <Preview lang="DE">mₑ</Preview>
+        <Description lang="DE">Elektronenmasse</Description>
+        <Description lang="ENG">Mass of an electron</Description>
+        <Unit>particlemass</Unit>
+    </Variable>
+
+    <Variable const="0.001674927471*[y]" constPreviewDE="1,674927471 · 10⁻²⁷">
+        <Field>physics</Field>
+        <Identifier>Neutronenmasse</Identifier>
+        <Symbol>mn</Symbol>
+        <Preview lang="DE">mₙ</Preview>
+        <Description lang="DE">Neutronenmasse</Description>
+        <Description lang="ENG">Mass of a neutron</Description>
+        <Unit>particlemass</Unit>
+    </Variable>
+
+    <Variable const="0.001672621898*[y]" constPreviewDE="1,672621898 · 10⁻²⁷">
+        <Field>physics</Field>
+        <Identifier>Protonenmasse</Identifier>
+        <Symbol>mp</Symbol>
+        <Preview lang="DE">mₚ</Preview>
+        <Description lang="DE">Protonenmasse</Description>
+        <Description lang="ENG">Mass of a proton</Description>
+        <Unit>particlemass</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>chemistry</Field>
+        <Identifier>teilchenanzahl</Identifier>
+        <Symbol>N</Symbol>
+        <Description lang="DE">Teilchenanzahl</Description>
+        <Description lang="ENG">Number of particles</Description>
+        <Unit>none</Unit>
+    </Variable>
+
+    <Variable const="0.6022140857*[Y]" constPreviewDE="6,022140 · 10²³">
+        <Field>chemistry</Field>
+        <Identifier>avogadro</Identifier>
+        <Symbol>NA</Symbol>
+        <Description lang="DE">Avogadro-Konstante</Description>
+        <Description lang="ENG">Avogadro-constant</Description>
+        <Unit>avogadro</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>chemistry</Field>
+        <Identifier>stoffmenge</Identifier>
+        <Symbol>n</Symbol>
+        <Description lang="DE">Stoffmenge</Description>
+        <Description lang="ENG">Amount of substance</Description>
+        <Unit>stoffmenge</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>chemistry</Field>
+        <Identifier>molmass</Identifier>
+        <Symbol>M</Symbol>
+        <Description lang="DE">Molare Masse</Description>
+        <Description lang="ENG">Molar mass</Description>
+        <Unit>molmass</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>chemistry</Field>
+        <Identifier>mass_chemistry</Identifier>
+        <Symbol>m</Symbol>
+        <Description lang="DE">Masse</Description>
+        <Description lang="ENG">Mass</Description>
+        <Unit>mass</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>chemistry</Field>
+        <Identifier>molvol</Identifier>
+        <Symbol>Vm</Symbol>
+        <Preview lang="DE">Vₘ</Preview>
+        <Description lang="DE">Molares Volumen</Description>
+        <Description lang="ENG">Molar volume</Description>
+        <Unit>molvol</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>chemistry</Field>
+        <Identifier>concentration</Identifier>
+        <Symbol>c</Symbol>
+        <Description lang="DE">Konzentration</Description>
+        <Description lang="ENG">Concentration</Description>
+        <Unit>concentration</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>chemistry</Field>
+        <Identifier>concentration_oxonium</Identifier>
+        <Symbol>c</Symbol>
+        <Description lang="DE">Konzentration der Oxoniumionen</Description>
+        <Description lang="ENG">Concentration of oxonium ions</Description>
+        <Unit>concentration</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>chemistry</Field>
+        <Identifier>concentration_hydroxid</Identifier>
+        <Symbol>c</Symbol>
+        <Description lang="DE">Konzentration der Hydroxidionen</Description>
+        <Description lang="ENG">Concentration of hydroxide ions</Description>
+        <Unit>concentration</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>chemistry</Field>
+        <Identifier>volume_chemistry</Identifier>
+        <Symbol>V</Symbol>
+        <Description lang="DE">Volumen</Description>
+        <Description lang="ENG">Volume</Description>
+        <Unit>volume</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>chemistry</Field>
+        <Identifier>pH</Identifier>
+        <Symbol>p</Symbol>
+        <Preview lang="DE">pH</Preview>
+        <Description lang="DE">pH-Wert</Description>
+        <Description lang="ENG">pH-value</Description>
+        <Unit>none</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>chemistry</Field>
+        <Identifier>pOH</Identifier>
+        <Symbol>p</Symbol>
+        <Preview lang="DE">pOH</Preview>
+        <Description lang="DE">pOH-Wert</Description>
+        <Description lang="ENG">pOH-value</Description>
+        <Unit>none</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>chemistry</Field>
+        <Identifier>velocity_reaction</Identifier>
+        <Symbol>v</Symbol>
+        <Description lang="DE">Mittlere Reaktionsgeschwindigkeit</Description>
+        <Description lang="ENG">Average speed of the reaction</Description>
+        <Unit>reaction</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>chemistry</Field>
+        <Identifier>concentration_change</Identifier>
+        <Symbol>c</Symbol>
+        <Preview lang="DE">Δc</Preview>
+        <Description lang="DE">Konzentrationsänderung</Description>
+        <Description lang="ENG">Change in concentration</Description>
+        <Unit>concentration</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>chemistry</Field>
+        <Identifier>pKs</Identifier>
+        <Symbol>pK</Symbol>
+        <Preview lang="DE">pKₛ</Preview>
+        <Description lang="DE">pKₛ-Wert</Description>
+        <Description lang="ENG">pKₛ-value</Description>
+        <Unit>none</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>chemistry</Field>
+        <Identifier>acid_con</Identifier>
+        <Symbol>H</Symbol>
+        <Preview lang="DE">[HA]₀</Preview>
+        <Description lang="DE">Ausgangskonzentration der Säure</Description>
+        <Description lang="ENG">Initial concentration of the acid</Description>
+        <Unit>concentration</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>chemistry</Field>
+        <Identifier>pKb</Identifier>
+        <Symbol>pK</Symbol>
+        <Preview lang="DE">pKB</Preview>
+        <Description lang="DE">pKB-Wert</Description>
+        <Description lang="ENG">pKB-valus</Description>
+        <Unit>none</Unit>
+    </Variable>
+
+    <Variable>
+        <Field>chemistry</Field>
+        <Identifier>base_con</Identifier>
+        <Symbol>B</Symbol>
+        <Preview lang="DE">[B]₀</Preview>
+        <Description lang="DE">Ausgangskonzentration der Base</Description>
+        <Description lang="ENG">Initial concentration of the base</Description>
+        <Unit>concentration</Unit>
+    </Variable>
+
+    <Variable const="96485.33289" constPreviewDE="96485,33289">
+        <Field>chemistry</Field>
+        <Identifier>faraday</Identifier>
+        <Symbol>F</Symbol>
+        <Description lang="DE">Faraday-Konstante</Description>
+        <Description lang="ENG">Faraday-constant</Description>
+        <Unit>faraday</Unit>
+    </Variable>
+
+    <Variable const="8.3144598" constPreviewDE="8,3144598">
+        <Field>chemistry</Field>
+        <Identifier>gasconst</Identifier>
+        <Symbol>R</Symbol>
+        <Description lang="DE">Universelle Gaskonstante</Description>
+        <Description lang="ENG">Universal gas constant</Description>
+        <Unit>gasconst</Unit>
+    </Variable>
+
+</Variablen>

@@ -1,0 +1,600 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    © Benedikt Wille, Rene Jokiel 2018
+    Urheber: Benedikt Wille, Rene Jokiel
+
+    Dieses Dokument ist gemäß deutschem Urheberschutz geschützt
+
+    Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen
+    des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers
+
+    Die Vervielfältigung oder Neu-Umsetzung (auch einzelner Komponenten) der Software auf
+    Basis der Software wird Dritten nicht gestattet
+-->
+
+<Formeln>
+
+    <Formel>
+        <Category>pytha</Category>
+        <ButtonText lang="DE">Satz des Pythagoras</ButtonText>
+        <ButtonText lang="ENG">﻿Pythagorean theorem</ButtonText>
+        <Preview lang="DE">c² = a² + b²</Preview>
+        <Umformung>sqrt((a^2) + (b^2))</Umformung>
+        <Umformung>sqrt((c^2) - (b^2))</Umformung>
+        <Umformung>sqrt((c^2) - (a^2))</Umformung>
+        <LaTeX lang="DE">$$c = \sqrt{a^2 + b^2}$$</LaTeX>
+        <LaTeX lang="DE">$$a = \sqrt{c^2 - b^2}$$</LaTeX>
+        <LaTeX lang="DE">$$b = \sqrt{c^2 - a^2}$$</LaTeX>
+        <Variable>hypotenuse_c</Variable>
+        <Variable>kathete_a</Variable>
+        <Variable>kathete_b</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>pytha</Category>
+        <ButtonText lang="DE">Höhensatz</ButtonText>
+        <ButtonText lang="ENG">Geometric mean theorem</ButtonText>
+        <Preview lang="DE">h² = p · q</Preview>
+        <Umformung>sqrt(p * q)</Umformung>
+        <Umformung>(h^2) / q</Umformung>
+        <Umformung>(h^2) / p</Umformung>
+        <LaTeX lang="DE">$$h = \sqrt{p \cdot q}$$</LaTeX>
+        <LaTeX lang="DE">$$p = \frac{h^2}{q}$$</LaTeX>
+        <LaTeX lang="DE">$$q = \frac{h^2}{p}$$</LaTeX>
+        <Variable>height_maths</Variable>
+        <Variable>hypo_ab_p</Variable>
+        <Variable>hypo_ab_q</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>pytha</Category>
+        <ButtonText lang="DE">Kathetensatz für Kathete a</ButtonText>
+        <ButtonText lang="ENG">Cathetus theorem for cathetus a</ButtonText>
+        <Preview lang="DE">a² = p · c</Preview>
+        <Umformung>sqrt(p * c)</Umformung>
+        <Umformung>(a^2) / c</Umformung>
+        <Umformung>(a^2) / p</Umformung>
+        <LaTeX lang="DE">$$a = \sqrt{p \cdot c}$$</LaTeX>
+        <LaTeX lang="DE">$$p = \frac{a^2}{c}$$</LaTeX>
+        <LaTeX lang="DE">$$c = \frac{a^2}{p}$$</LaTeX>
+        <Variable>kathete_a</Variable>
+        <Variable>hypo_ab_p</Variable>
+        <Variable>hypotenuse_c</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>pytha</Category>
+        <ButtonText lang="DE">Kathetensatz für Kathete b</ButtonText>
+        <ButtonText lang="ENG">Cathetus theorem for cathetus b</ButtonText>
+        <Preview lang="DE">b² = q · c</Preview>
+        <Umformung>sqrt(q * c)</Umformung>
+        <Umformung>(b^2) / c</Umformung>
+        <Umformung>(b^2) / q</Umformung>
+        <LaTeX lang="DE">$$b = \sqrt{q \cdot c}$$</LaTeX>
+        <LaTeX lang="DE">$$q = \frac{a^2}{c}$$</LaTeX>
+        <LaTeX lang="DE">$$c = \frac{a^2}{q}$$</LaTeX>
+        <Variable>kathete_b</Variable>
+        <Variable>hypo_ab_q</Variable>
+        <Variable>hypotenuse_c</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>area</Category>
+        <ButtonText lang="DE">Rechtecksfläche</ButtonText>
+        <ButtonText lang="ENG">Area of a rectangle</ButtonText>
+        <Preview lang="DE"> A = a · b</Preview>
+        <Umformung>a * b</Umformung>
+        <Umformung>A / b</Umformung>
+        <Umformung>A / a</Umformung>
+        <LaTeX lang="DE">$$A = a \cdot b$$</LaTeX>
+        <LaTeX lang="DE">$$a = \frac{A}{b}$$</LaTeX>
+        <LaTeX lang="DE">$$b = \frac{A}{a}$$</LaTeX>
+        <Variable>area_rectangle</Variable>
+        <Variable>length</Variable>
+        <Variable>width</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>area</Category>
+        <ButtonText lang="DE">Dreiecksfläche</ButtonText>
+        <ButtonText lang="ENG">Area of a triangle</ButtonText>
+        <Preview lang="DE">A = 0,5 · g · h</Preview>
+        <Umformung>(1/2) * g * h</Umformung>
+        <Umformung>2 * (A/h)</Umformung>
+        <Umformung>2 * (A/g)</Umformung>
+        <LaTeX lang="DE">$$A = \frac{1}{2} \cdot g \cdot h$$</LaTeX>
+        <LaTeX lang="DE">$$g = 2 \cdot \frac{A}{h}$$</LaTeX>
+        <LaTeX lang="DE">$$h = 2 \cdot \frac{A}{g}$$</LaTeX>
+        <Variable>area_triangle</Variable>
+        <Variable>grundseite</Variable>
+        <Variable>height_maths</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>area</Category>
+        <ButtonText lang="DE">Fläche eines gleichseitigen Dreiecks</ButtonText>
+        <ButtonText lang="ENG">Area of an equilateral triangle</ButtonText>
+        <Preview lang="DE">A = 0,25 ⋅ (a² ⋅ √3)</Preview>
+        <Umformung>((a^2) * sqrt(3)) / 4</Umformung>
+        <Umformung>sqrt((4 * A) / sqrt(3))</Umformung>
+        <LaTeX lang="DE">$$A = \frac{a^2 \cdot \sqrt{3}}{4}$$</LaTeX>
+        <LaTeX lang="DE">$$a = \sqrt{\frac{4 \cdot A}{\sqrt{3}}}$$</LaTeX>
+        <Variable>area_gleichseitig</Variable>
+        <Variable>seitenlength</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>area</Category>
+        <ButtonText lang="DE">Parallelogrammfläche</ButtonText>
+        <ButtonText lang="ENG">Area of a parallelogram</ButtonText>
+        <Preview lang="DE">A = g · h</Preview>
+        <Umformung>g * h</Umformung>
+        <Umformung>A / h</Umformung>
+        <Umformung>A / g</Umformung>
+        <LaTeX lang="DE">$$A = g \cdot h$$</LaTeX>
+        <LaTeX lang="DE">$$g = \frac{A}{h}$$</LaTeX>
+        <LaTeX lang="DE">$$h = \frac{A}{g}$$</LaTeX>
+        <Variable>area_parallelogramm</Variable>
+        <Variable>width_g</Variable>
+        <Variable>height_maths</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>area</Category>
+        <ButtonText lang="DE">Kreisfläche</ButtonText>
+        <ButtonText lang="ENG">Area of a circle</ButtonText>
+        <Preview lang="DE">A = π * r²</Preview>
+        <Umformung>pi * (r^2)</Umformung>
+        <Umformung>sqrt(A / pi)</Umformung>
+        <LaTeX lang="DE">$$A = \pi \cdot r^2$$</LaTeX>
+        <LaTeX lang="DE">$$r = \sqrt{\frac{A}{\pi}}$$</LaTeX>
+        <Variable>area_kreis</Variable>
+        <Variable>radius_maths</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>area</Category>
+        <ButtonText lang="DE">Kreissektorfläche</ButtonText>
+        <ButtonText lang="ENG">Area of a circular sector</ButtonText>
+        <Preview lang="DE">A = α/360° · π · r²</Preview>
+        <Umformung>(a/360) * pi * (r^2)</Umformung>
+        <Umformung>(A * 360) / ((r^2) * pi)</Umformung>
+        <Umformung>sqrt((A * 360) / (a * pi))</Umformung>
+        <LaTeX lang="DE">$$A = \frac{\alpha}{360^\circ} \cdot \pi \cdot r^2$$</LaTeX>
+        <LaTeX lang="DE">$$\alpha = \frac{A \cdot 360^\circ}{r^2 \cdot \pi}$$</LaTeX>
+        <LaTeX lang="DE">$$r = \sqrt{\frac{A \cdot 360^\circ}{\alpha \cdot \pi}}$$</LaTeX>
+        <Variable>area_kreissektor</Variable>
+        <Variable>winkel_alpha</Variable>
+        <Variable>radius_maths</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>area</Category>
+        <ButtonText lang="DE">Kreissektorfläche und Bogenlänge</ButtonText>
+        <ButtonText lang="ENG">Area and arc length of a circular sector</ButtonText>
+        <Preview lang="DE">A = 0,5 · r · b</Preview>
+        <Umformung>(1/2) * r * b</Umformung>
+        <Umformung>(2 * A) / b</Umformung>
+        <Umformung>(2 * A) / r</Umformung>
+        <LaTeX lang="DE">$$A = \frac{1}{2} \cdot r \cdot b$$</LaTeX>
+        <LaTeX lang="DE">$$r = \frac{2 \cdot A}{b}$$</LaTeX>
+        <LaTeX lang="DE">$$b = \frac{2 \cdot A}{r}$$</LaTeX>
+        <Variable>area_kreissektor</Variable>
+        <Variable>radius_maths</Variable>
+        <Variable>bogenlaenge</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>area</Category>
+        <ButtonText lang="DE">Ellipsenfläche</ButtonText>
+        <ButtonText lang="ENG">Area of an ellipse</ButtonText>
+        <Preview lang="DE">A = π · a · b</Preview>
+        <Umformung>pi * a * b</Umformung>
+        <Umformung>A / (pi * b)</Umformung>
+        <Umformung>A / (pi * a)</Umformung>
+        <LaTeX lang="DE">$$A = \pi \cdot a \cdot b$$</LaTeX>
+        <LaTeX lang="DE">$$a = \frac{A}{\pi \cdot b}$$</LaTeX>
+        <LaTeX lang="DE">$$b = \frac{A}{\pi \cdot a}$$</LaTeX>
+        <Variable>area_ellipse</Variable>
+        <Variable>halbachse_a</Variable>
+        <Variable>halbachse_b</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>area</Category>
+        <ButtonText lang="DE">Trapezfläche</ButtonText>
+        <ButtonText lang="ENG">Area of a trapezoid</ButtonText>
+        <Preview lang="DE">A = 0,5 · (a + c) · h</Preview>
+        <Umformung>(1/2) * (a + c) * h</Umformung>
+        <Umformung>A / ((1/2) * h) - c</Umformung>
+        <Umformung>A / ((1/2) * h) - a</Umformung>
+        <Umformung>A / ((1/2) * (a + c))</Umformung>
+        <LaTeX lang="DE">$$A = \frac{1}{2} \cdot (a + c) \cdot h$$</LaTeX>
+        <LaTeX lang="DE">$$a = \frac{A}{\frac{1}{2} \cdot h} - c$$</LaTeX>
+        <LaTeX lang="DE">$$c = \frac{A}{\frac{1}{2} \cdot h} - a$$</LaTeX>
+        <LaTeX lang="DE">$$h = \frac{A}{\frac{1}{2} \cdot (a + c)}$$</LaTeX>
+        <Variable>area_trapez</Variable>
+        <Variable>grundseite_a</Variable>
+        <Variable>grundseite_c</Variable>
+        <Variable>height_maths</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>area</Category>
+        <ButtonText lang="DE">Rautenfläche</ButtonText>
+        <ButtonText lang="ENG">Area of a rhombus</ButtonText>
+        <Preview lang="DE">A = (e · f) ÷ 2</Preview>
+        <Umformung>(o * f) / 2</Umformung>
+        <Umformung>(2 * A) / f</Umformung>
+        <Umformung>(2 * A) / o</Umformung>
+        <LaTeX lang="DE">$$A = \frac{e \cdot f}{2}$$</LaTeX>
+        <LaTeX lang="DE">$$e = \frac{2 \cdot A}{f}$$</LaTeX>
+        <LaTeX lang="DE">$$f = \frac{2 \cdot A}{e}$$</LaTeX>
+        <Variable>area_raute</Variable>
+        <Variable>diagonale_e</Variable>
+        <Variable>diagonale_f</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>umf</Category>
+        <ButtonText lang="DE">Kreisumfang</ButtonText>
+        <ButtonText lang="ENG">Circumference of a circle</ButtonText>
+        <Preview lang="DE">U = 2 · π · r  </Preview>
+        <Umformung>2 * pi * r</Umformung>
+        <Umformung>U / (2 * pi)</Umformung>
+        <LaTeX lang="DE">$$U =2 \cdot \pi \cdot r$$</LaTeX>
+        <LaTeX lang="DE">$$r = \frac{U}{2 \cdot \pi}$$</LaTeX>
+        <Variable>umfang_kreis</Variable>
+        <Variable>radius_maths</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>umf</Category>
+        <ButtonText lang="DE">Kreisbogenlänge</ButtonText>
+        <ButtonText lang="ENG">Arc length of a circular sector</ButtonText>
+        <Preview lang="DE">b = α/360° · 2 · π · r</Preview>
+        <Umformung>(a/360) * 2 * pi * r</Umformung>
+        <Umformung>(360 * b) / (2 * pi * r)</Umformung>
+        <Umformung>(360 * b) / (2 * pi * a)</Umformung>
+        <LaTeX lang="DE">$$b = \frac{\alpha}{360^\circ} \cdot 2 \cdot \pi \cdot r$$</LaTeX>
+        <LaTeX lang="DE">$$\alpha = \frac{360^\circ \cdot b}{2 \cdot \pi \cdot r}$$</LaTeX>
+        <LaTeX lang="DE">$$r = \frac{360^\circ \cdot b}{2 \cdot \pi \cdot \alpha}$$</LaTeX>
+        <Variable>bogenlaenge</Variable>
+        <Variable>winkel_alpha</Variable>
+        <Variable>radius_maths</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>vol</Category>
+        <ButtonText lang="DE">Quadervolumen</ButtonText>
+        <ButtonText lang="ENG">Volume of a cuboid</ButtonText>
+        <Preview lang="DE">V = a · b · c</Preview>
+        <Umformung>a * b * c</Umformung>
+        <Umformung>V / (b * c)</Umformung>
+        <Umformung>V / (a * c)</Umformung>
+        <Umformung>V / (a * b)</Umformung>
+        <LaTeX lang="DE">$$V = a \cdot b \cdot c$$</LaTeX>
+        <LaTeX lang="DE">$$a = \frac{V}{b \cdot c}$$</LaTeX>
+        <LaTeX lang="DE">$$b = \frac{V}{a \cdot c}$$</LaTeX>
+        <LaTeX lang="DE">$$c = \frac{V}{a \cdot b}$$</LaTeX>
+        <Variable>volume_quader</Variable>
+        <Variable>length</Variable>
+        <Variable>width</Variable>
+        <Variable>height_maths_c</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>vol</Category>
+        <ButtonText lang="DE">Kugelvolumen</ButtonText>
+        <ButtonText lang="ENG">Volume of a sphere</ButtonText>
+        <Preview lang="DE">V = 4/3 · π · r³</Preview>
+        <Umformung>(4/3) * pi * (r^3)</Umformung>
+        <Umformung>root(3, V / ((4/3) * pi))</Umformung>
+        <LaTeX lang="DE">$$V = \frac{4}{3} \cdot \pi \cdot r^3$$</LaTeX>
+        <LaTeX lang="DE">$$r = \sqrt[3]{\frac{V}{\frac{4}{3} \cdot \pi}}$$</LaTeX>
+        <Variable>volume_kugel</Variable>
+        <Variable>radius_maths</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>vol</Category>
+        <ButtonText lang="DE">Kegelvolumen</ButtonText>
+        <ButtonText lang="ENG">Volume of a cone</ButtonText>
+        <Preview lang="DE">V = 1/3 · π · r² · h</Preview>
+        <Umformung>(1/3) * pi * (r^2) * h</Umformung>
+        <Umformung>sqrt(V / ((1/3) * pi * h))</Umformung>
+        <Umformung>V / ((1/3) * pi * (r^2))</Umformung>
+        <LaTeX lang="DE">$$V =\frac{1}{3} \cdot \pi \cdot r^2 \cdot h$$</LaTeX>
+        <LaTeX lang="DE">$$r = \sqrt{\frac{V}{\frac{1}{3} \cdot \pi \cdot h}}$$</LaTeX>
+        <LaTeX lang="DE">$$h =  \frac{V}{\frac{1}{3} \cdot \pi \cdot r^2}$$</LaTeX>
+        <Variable>volume_kegel</Variable>
+        <Variable>radius_maths</Variable>
+        <Variable>height_maths</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>surface</Category>
+        <ButtonText lang="DE">Kugeloberfläche</ButtonText>
+        <ButtonText lang="ENG">Surface area of a sphere</ButtonText>
+        <Preview lang="DE">O = 4 · π · r²</Preview>
+        <Umformung>4 * pi * (r^2)</Umformung>
+        <Umformung>sqrt(O / (4 * pi))</Umformung>
+        <LaTeX lang="DE">$$O = 4 \cdot \pi \cdot r^2$$</LaTeX>
+        <LaTeX lang="DE">$$r = \sqrt{\frac{O}{4 \cdot \pi}}$$</LaTeX>
+        <Variable>surface_kugel</Variable>
+        <Variable>radius_maths</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>vol</Category>
+        <ButtonText lang="DE">Zylindervolumen</ButtonText>
+        <ButtonText lang="ENG">Volume of a cylinder</ButtonText>
+        <Preview lang="DE">V = π · r² · h </Preview>
+        <Umformung>pi * (r^2) * h</Umformung>
+        <Umformung>sqrt(V / (pi * h))</Umformung>
+        <Umformung>V / (pi * (r^2))</Umformung>
+        <LaTeX lang="DE">$$V = \pi \cdot r^2 \cdot h$$</LaTeX>
+        <LaTeX lang="DE">$$r = \sqrt{\frac{V}{\pi \cdot h}}$$</LaTeX>
+        <LaTeX lang="DE">$$h = \frac{V}{\pi \cdot r^2}$$</LaTeX>
+        <Variable>volume_zylinder</Variable>
+        <Variable>radius_maths</Variable>
+        <Variable>height_maths</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>vol</Category>
+        <ButtonText lang="DE">Pyramidenvolumen</ButtonText>
+        <ButtonText lang="ENG">Volume of a pyramid</ButtonText>
+        <Preview lang="DE">V = 1/3 · a · b · h</Preview>
+        <Umformung>(1/3) * a * b * h</Umformung>
+        <Umformung>V / ((1/3) * b * h)</Umformung>
+        <Umformung>V / ((1/3) * a * h)</Umformung>
+        <Umformung>V / ((1/3) * a * b)</Umformung>
+        <LaTeX lang="DE">$$V = \frac{1}{3} \cdot a \cdot b \cdot h$$</LaTeX>
+        <LaTeX lang="DE">$$a = \frac{V}{\frac{1}{3} \cdot b \cdot h}$$</LaTeX>
+        <LaTeX lang="DE">$$b = \frac{V}{\frac{1}{3} \cdot a \cdot h}$$</LaTeX>
+        <LaTeX lang="DE">$$h = \frac{V}{\frac{1}{3} \cdot a \cdot b}$$</LaTeX>
+        <Variable>volume_pyramide</Variable>
+        <Variable>length</Variable>
+        <Variable>width</Variable>
+        <Variable>height_maths</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>vol</Category>
+        <ButtonText lang="DE">Volumen der quadratischen Pyramide</ButtonText>
+        <ButtonText lang="ENG">Volume of a quadratic pyramid</ButtonText>
+        <Preview lang="DE">V = 1/3 · a² · h</Preview>
+        <Umformung>(1/3) * (a^2) * h</Umformung>
+        <Umformung>sqrt(V /((1/3) * h))</Umformung>
+        <Umformung>V / ((1/3) * (a^2))</Umformung>
+        <LaTeX lang="DE">$$V = \frac{1}{3} \cdot a^2 \cdot h$$</LaTeX>
+        <LaTeX lang="DE">$$a = \sqrt{\frac{V}{\frac{1}{3} \cdot h}}$$</LaTeX>
+        <LaTeX lang="DE">$$h = \frac{V}{\frac{1}{3} \cdot a^2}$$</LaTeX>
+        <Variable>volume_pyramide</Variable>
+        <Variable>kantenlaenge</Variable>
+        <Variable>height_maths</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>surface</Category>
+        <ButtonText lang="DE">Zylindermantelfläche</ButtonText>
+        <ButtonText lang="ENG">Lateral surface area of a cylinder</ButtonText>
+        <Preview lang="DE">M = 2 · r · π · h</Preview>
+        <Umformung>2 * r * pi * h</Umformung>
+        <Umformung>(1/2)* M / (pi * h)</Umformung>
+        <Umformung>(1/2) * M / (2 * r * pi)</Umformung>
+        <LaTeX lang="DE">$$M = 2 \cdot r\cdot \pi \cdot h$$</LaTeX>
+        <LaTeX lang="DE">$$r = \frac{1}{2} \cdot \frac{M}{\pi \cdot h}$$</LaTeX>
+        <LaTeX lang="DE">$$h =  \frac{M}{ 2\cdot r \cdot \pi}$$</LaTeX>
+        <Variable>zylindermantel</Variable>
+        <Variable>radius_maths</Variable>
+        <Variable>height_maths</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>surface</Category>
+        <ButtonText lang="DE">Zylinderoberfläche</ButtonText>
+        <ButtonText lang="ENG">Surface area of a cylinder</ButtonText>
+        <Preview lang="DE">O = 2 · π · r² + M</Preview>
+        <Umformung>2 * pi * (r^2) + M</Umformung>
+        <Umformung>O - 2 * pi * (r^2)</Umformung>
+        <Umformung>sqrt((O - M) / (2 * pi))</Umformung>
+        <LaTeX lang="DE">$$O = 2 \cdot \pi \cdot r^2 + M$$</LaTeX>
+        <LaTeX lang="DE">$$M = O - 2 \cdot \pi \cdot r^2 $$</LaTeX>
+        <LaTeX lang="DE">$$r = \sqrt{\frac{O - M}{2 \cdot \pi}}$$</LaTeX>
+        <Variable>surface_zylinder</Variable>
+        <Variable>zylindermantel</Variable>
+        <Variable>radius_maths</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>surface</Category>
+        <ButtonText lang="DE">Kegelmantelfläche</ButtonText>
+        <ButtonText lang="ENG">Lateral surface area of a cone</ButtonText>
+        <Preview lang="DE">M = r · s · π</Preview>
+        <Umformung>r * s * pi</Umformung>
+        <Umformung>M / (s * pi)</Umformung>
+        <Umformung>M / (r * pi)</Umformung>
+        <LaTeX lang="DE">$$M = r \cdot s \cdot \pi$$</LaTeX>
+        <LaTeX lang="DE">$$r = \frac{M}{s \cdot \pi}$$</LaTeX>
+        <LaTeX lang="DE">$$s= \frac{M}{r \cdot \pi}$$</LaTeX>
+        <Variable>kegelmantel</Variable>
+        <Variable>radius_maths</Variable>
+        <Variable>kegelmantellinie</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>surface</Category>
+        <ButtonText lang="DE">Kegeloberfläche</ButtonText>
+        <ButtonText lang="ENG">Surface area of a cone</ButtonText>
+        <Preview lang="DE">O = π · r² + M</Preview>
+        <Umformung>(pi * (r^2)) + M</Umformung>
+        <Umformung>sqrt((O - M) / pi)</Umformung>
+        <Umformung>O - (pi * (r^2))</Umformung>
+        <LaTeX lang="DE">$$O = \pi \cdot r^2 + M$$</LaTeX>
+        <LaTeX lang="DE">$$r = \sqrt{\frac{O - M}{\pi}}$$</LaTeX>
+        <LaTeX lang="DE">$$M = O - \pi \cdot r^2$$</LaTeX>
+        <Variable>surface_kegel</Variable>
+        <Variable>radius_maths</Variable>
+        <Variable>kegelmantel</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>func</Category>
+        <ButtonText lang="DE">Sinus</ButtonText>
+        <ButtonText lang="ENG">Sine</ButtonText>
+        <Preview lang="DE">sin(α) = Gegenkathete ÷ Hypotenuse</Preview>
+        <Umformung>G / H</Umformung>
+        <Umformung>s * H</Umformung>
+        <Umformung>s / G</Umformung>
+        <LaTeX lang="DE">$$\sin{\alpha} = \frac{G}{H}$$</LaTeX>
+        <LaTeX lang="DE">$$G = \sin{\alpha} \cdot H$$</LaTeX>
+        <LaTeX lang="DE">$$H = \frac{\sin{\alpha}}{G}$$</LaTeX>
+        <Variable>sinus_alpha</Variable>
+        <Variable>gegenkathete</Variable>
+        <Variable>hypotenuse</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>func</Category>
+        <ButtonText lang="DE">Cosinus</ButtonText>
+        <ButtonText lang="ENG">Cosine</ButtonText>
+        <Preview lang="DE">cos(α) = Ankathete ÷ Hypotenuse</Preview>
+        <Umformung>A / H</Umformung>
+        <Umformung>c * H</Umformung>
+        <Umformung>c / A</Umformung>
+        <LaTeX lang="DE">$$\cos{\alpha} = \frac{A}{H}$$</LaTeX>
+        <LaTeX lang="DE">$$A = \cos{\alpha} \cdot H$$</LaTeX>
+        <LaTeX lang="DE">$$H = \frac{\cos{\alpha}}{A}$$</LaTeX>
+        <Variable>cosinus_alpha</Variable>
+        <Variable>ankathete</Variable>
+        <Variable>hypotenuse</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>func</Category>
+        <ButtonText lang="DE">Tangens</ButtonText>
+        <ButtonText lang="ENG">Tangent</ButtonText>
+        <Preview lang="DE">tan(α) = Gegenkathete ÷ Ankathete</Preview>
+        <Umformung>G / A</Umformung>
+        <Umformung>t * A</Umformung>
+        <Umformung>t / G</Umformung>
+        <LaTeX lang="DE">$$\tan{\alpha} = \frac{G}{A}$$</LaTeX>
+        <LaTeX lang="DE">$$G = \tan{\alpha} \cdot A$$</LaTeX>
+        <LaTeX lang="DE">$$A = \frac{\tan{\alpha}}{H}$$</LaTeX>
+        <Variable>tangens_alpha</Variable>
+        <Variable>gegenkathete</Variable>
+        <Variable>ankathete</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>func</Category>
+        <ButtonText lang="DE">Cotangens</ButtonText>
+        <ButtonText lang="ENG">Cotangent</ButtonText>
+        <Preview lang="DE">cot(α) = Ankathete ÷ Gegenkathete</Preview>
+        <Umformung>A / G</Umformung>
+        <Umformung>a * G</Umformung>
+        <Umformung>a / A</Umformung>
+        <LaTeX lang="DE">$$\cot{\alpha} = \frac{A}{G}$$</LaTeX>
+        <LaTeX lang="DE">$$A = \cot{\alpha} \cdot G$$</LaTeX>
+        <LaTeX lang="DE">$$G = \frac{\cot{\alpha}}{A}$$</LaTeX>
+        <Variable>cotangens_alpha</Variable>
+        <Variable>ankathete</Variable>
+        <Variable>gegenkathete</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>func</Category>
+        <ButtonText lang="DE">Tangens aus Sinus und Cosinus</ButtonText>
+        <ButtonText lang="ENG">Tangent from Sine and Cosine</ButtonText>
+        <Preview lang="DE">tan(α) = sin(α) ÷ cos(α)</Preview>
+        <Umformung>s / c</Umformung>
+        <Umformung>t * c</Umformung>
+        <Umformung>t / s</Umformung>
+        <LaTeX lang="DE">$$\tan{\alpha} = \frac{\sin{\alpha}}{\cos{\alpha}}$$</LaTeX>
+        <LaTeX lang="DE">$$sin{\alpha} = \tan{\alpha} \cdot \cos{\alpha}$$</LaTeX>
+        <LaTeX lang="DE">$$\cos{\alpha} = \frac{\tan{\alpha}}{\sin{\alpha}}$$</LaTeX>
+        <Variable>tangens_alpha</Variable>
+        <Variable>sinus_alpha</Variable>
+        <Variable>cosinus_alpha</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>umf</Category>
+        <ButtonText lang="DE">Rechtecksumfang</ButtonText>
+        <ButtonText lang="ENG">Circumference of a rectangle</ButtonText>
+        <Preview lang="DE">U = 2a + 2b</Preview>
+        <Umformung>(2 * a) + (2 * b)</Umformung>
+        <Umformung>(U – (2 * b)) / 2</Umformung>
+        <Umformung>(U – (2 * b)) / 2</Umformung>
+        <LaTeX lang="DE">$$U = 2a + 2b$$</LaTeX>
+        <LaTeX lang="DE">$$a = \frac{U – 2b}{2}$$</LaTeX>
+        <LaTeX lang="DE">$$b = \frac{U – 2a}{2}$$</LaTeX>
+        <Variable>umfang_rechteck</Variable>
+        <Variable>length</Variable>
+        <Variable>width</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>umf</Category>
+        <ButtonText lang="DE">Umfang eines gleichseitigen n-Ecks</ButtonText>
+        <ButtonText lang="ENG">Circumference of a equilateral n-gon</ButtonText>
+        <Preview lang="DE">U = n ⋅ a</Preview>
+        <Umformung>n * a</Umformung>
+        <Umformung>U / a</Umformung>
+        <Umformung>U / n</Umformung>
+        <LaTeX lang="DE">$$U = n \cdot a$$</LaTeX>
+        <LaTeX lang="DE">$$n = \frac{U}{a}$$</LaTeX>
+        <LaTeX lang="DE">$$a = \frac{U}{n}$$</LaTeX>
+        <Variable>umfang_neck</Variable>
+        <Variable>anzahl_seiten</Variable>
+        <Variable>seitenlength</Variable>
+    </Formel>
+    <Formel>
+        <Category>lengths</Category>
+        <ButtonText lang="DE">Diagonale im Rechteck</ButtonText>
+        <ButtonText lang="ENG">Diagonal in a rectangle</ButtonText>
+        <Preview lang="DE">d = √ (a² + b²)</Preview>
+        <Umformung>sqrt((a^2) + (b^2))</Umformung>
+        <Umformung>sqrt((d^2) - (b^2))</Umformung>
+        <Umformung>sqrt((d^2) - (a^2))</Umformung>
+        <LaTeX lang="DE">$$d = \sqrt{a^2 + b^2}$$</LaTeX>
+        <LaTeX lang="DE">$$a = \sqrt{d^2 - b^2}$$</LaTeX>
+        <LaTeX lang="DE">$$b = \sqrt{d^2 - a^2}$$</LaTeX>
+        <Variable>diagonale</Variable>
+        <Variable>length</Variable>
+        <Variable>width</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>lengths</Category>
+        <ButtonText lang="DE">Raumdiagonale eines Körpers</ButtonText>
+        <ButtonText lang="ENG">Space diagonal of a body</ButtonText>
+        <Preview lang="DE">dᵣ = √(d² + h²)</Preview>
+        <Umformung>sqrt((d^2) + (h^2))</Umformung>
+        <Umformung>sqrt((dr^2) - (h^2))</Umformung>
+        <Umformung>sqrt((dr^2) - (d^2))</Umformung>
+        <LaTeX lang="DE">$$d_R = \sqrt{d^2 + h^2}$$</LaTeX>
+        <LaTeX lang="DE">$$d = \sqrt{{d_R}^2 - h^2}$$</LaTeX>
+        <LaTeX lang="DE">$$h = \sqrt{{d_R}^2 - d^2}$$</LaTeX>
+        <Variable>raumdiagonale</Variable>
+        <Variable>flaechendiagonale</Variable>
+        <Variable>height_maths</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>lengths</Category>
+        <ButtonText lang="DE">Höhe eines gleichseitigen Dreiecks</ButtonText>
+        <ButtonText lang="ENG">Height of an equilateral triangle</ButtonText>
+        <Preview lang="DE">h = √3 ⋅ (0,5 ⋅ a)</Preview>
+        <Umformung>(a / 2) * sqrt(3)</Umformung>
+        <Umformung>(2 * h) / sqrt(3)</Umformung>
+        <LaTeX lang="DE">$$h = \frac{a}{2} \cdot \sqrt{3}$$</LaTeX>
+        <LaTeX lang="DE">$$a = \frac{2 \cdot h}{\sqrt{3}}$$</LaTeX>
+        <Variable>height_maths</Variable>
+        <Variable>seitenlength</Variable>
+    </Formel>
+
+</Formeln>

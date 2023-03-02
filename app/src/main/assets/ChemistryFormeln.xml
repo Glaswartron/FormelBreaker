@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    © Benedikt Wille, Rene Jokiel 2018
+    Urheber: Benedikt Wille, Rene Jokiel
+
+    Dieses Dokument ist gemäß deutschem Urheberschutz geschützt
+
+    Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen
+    des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers
+
+    Die Vervielfältigung oder Neu-Umsetzung (auch einzelner Komponenten) der Software auf
+    Basis der Software wird Dritten nicht gestattet
+-->
+
+<Formeln>
+
+    <Formel>
+        <Category>quant</Category>
+        <ButtonText lang="DE">Teilchenanzahl</ButtonText>
+        <ButtonText lang="ENG">﻿Number of particles</ButtonText>
+        <Preview lang="DE">N = NA · n</Preview>
+        <Umformung>NA * n</Umformung>
+        <Umformung>N / NA</Umformung>
+        <LaTeX lang="DE">$$N = N_A \cdot n$$</LaTeX>
+        <LaTeX lang="DE">$$n = \frac{N}{N_A}$$</LaTeX>
+        <Variable>teilchenanzahl</Variable>
+        <Variable>avogadro</Variable>
+        <Variable>stoffmenge</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>quant</Category>
+        <ButtonText lang="DE">Molare Masse</ButtonText>
+        <ButtonText lang="ENG">Molar mass</ButtonText>
+        <Preview lang="DE">M = m ÷ n</Preview>
+        <Umformung>m / n</Umformung>
+        <Umformung>M * n</Umformung>
+        <Umformung>m / M</Umformung>
+        <LaTeX lang="DE">$$M = \frac{m}{n}$$</LaTeX>
+        <LaTeX lang="DE">$$m = M \cdot n$$</LaTeX>
+        <LaTeX lang="DE">$$n = \frac{m}{M}$$</LaTeX>
+        <Variable>molmass</Variable>
+        <Variable>mass_chemistry</Variable>
+        <Variable>stoffmenge</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>quant</Category>
+        <ButtonText lang="DE">Molares Volumen</ButtonText>
+        <ButtonText lang="ENG">Molar volume</ButtonText>
+        <Preview lang="DE">Vₘ = m ÷ n</Preview>
+        <Umformung>m / n</Umformung>
+        <Umformung>Vm * n</Umformung>
+        <Umformung>m / Vm</Umformung>
+        <LaTeX lang="DE">$$V_m = \frac{m}{n}$$</LaTeX>
+        <LaTeX lang="DE">$$m = V_m \cdot n$$</LaTeX>
+        <LaTeX lang="DE">$$n = \frac{m}{V_m}$$</LaTeX>
+        <Variable>molvol</Variable>
+        <Variable>mass_chemistry</Variable>
+        <Variable>stoffmenge</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>quant</Category>
+        <ButtonText lang="DE">Konzentration</ButtonText>
+        <ButtonText lang="ENG">Concentration</ButtonText>
+        <Preview lang="DE">c = n ÷ V</Preview>
+        <Umformung>n / V</Umformung>
+        <Umformung>c * V</Umformung>
+        <Umformung>n / c</Umformung>
+        <LaTeX lang="DE">$$c = \frac{n}{V}$$</LaTeX>
+        <LaTeX lang="DE">$$n = c \cdot V$$</LaTeX>
+        <LaTeX lang="DE">$$V = \frac{n}{c}$$</LaTeX>
+        <Variable>concentration</Variable>
+        <Variable>stoffmenge</Variable>
+        <Variable>volume</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>quant</Category>
+        <ButtonText lang="DE">Allgemeine Gasgleichung</ButtonText>
+        <ButtonText lang="ENG">Ideal gas law</ButtonText>
+        <Preview lang="DE">p ⋅ V = n ⋅ R  ⋅ T</Preview>
+        <Umformung>(n * R * T) / V</Umformung>
+        <Umformung>(p * V) / (R * T)</Umformung>
+        <Umformung>(p * V) / (n * R)</Umformung>
+        <Umformung>(n * R * T) / p</Umformung>
+        <LaTeX lang="DE">$$p = \frac{n \cdot R \cdot T}{V}$$</LaTeX>
+        <LaTeX lang="DE">$$V = \frac{n \cdot R \cdot T}{p}$$</LaTeX>
+        <LaTeX lang="DE">$$n = \frac{p \cdot V}{R \cdot T}$$</LaTeX>
+        <LaTeX lang="DE">$$T = \frac{p \cdot V}{n \cdot R}$$</LaTeX>
+        <Variable>pressure</Variable>
+        <Variable>stoffmenge</Variable>
+        <Variable>gasconst</Variable>
+        <Variable>temp</Variable>
+        <Variable>volume_chemistry</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>srba</Category>
+        <ButtonText lang="DE">pH-Wert bei starken Säuren</ButtonText>
+        <ButtonText lang="ENG">pH value of a strong acid</ButtonText>
+        <Preview lang="DE">pH = -log{c(H₃O⁺)}</Preview>
+        <Umformung>-(log10(c))</Umformung>
+        <Umformung>10^(-p)</Umformung>
+        <LaTeX lang="DE">$$pH = - \log(c(H_3O^+))$$</LaTeX>
+        <LaTeX lang="DE">$$c(H_3O^+) = 10^{-pH}$$</LaTeX>
+        <Variable>pH</Variable>
+        <Variable>concentration_oxonium</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>srba</Category>
+        <ButtonText lang="DE">pOH-Wert bei starken Basen</ButtonText>
+        <ButtonText lang="ENG">pOH value of a strong base</ButtonText>
+        <Preview lang="DE">pOH = -log{c(OH⁻)}</Preview>
+        <Umformung>-(log10(c))</Umformung>
+        <Umformung>10^(-p)</Umformung>
+        <LaTeX lang="DE">$$pOH = - \log(c(OH^-))$$</LaTeX>
+        <LaTeX lang="DE">$$c(OH^-) = 10^{-pOH}$$</LaTeX>
+        <Variable>pOH</Variable>
+        <Variable>concentration_hydroxid</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>srba</Category>
+        <ButtonText lang="DE">pH-Wert bei schwachen Säuren</ButtonText>
+        <ButtonText lang="ENG">pH value of a weak acid</ButtonText>
+        <Preview lang="DE">pH = 0,5 ⋅ (pKₛ - log[HA]₀)</Preview>
+        <Umformung>(pK / 2) * -(log10(H))</Umformung>
+        <Umformung>(2 * p) + log10(H)</Umformung>
+        <Umformung>10^((-2 * p) + pK)</Umformung>
+        <LaTeX lang="DE">$$pH = \frac{pK_S - \log{[HA]_0}}{2}$$</LaTeX>
+        <LaTeX lang="DE">$$pK_S = 2 \cdot pH + \log{[HA]_0}$$</LaTeX>
+        <LaTeX lang="DE">$$[HA]_0 = 10^{-2 \cdot pH + pK_S}$$</LaTeX>
+        <Variable>pH</Variable>
+        <Variable>pKs</Variable>
+        <Variable>acid_con</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>srba</Category>
+        <ButtonText lang="DE">pOH-Wert bei schwachen Basen</ButtonText>
+        <ButtonText lang="ENG">pOH value of a weak base</ButtonText>
+        <Preview lang="DE">pOH = 0,5 ⋅ (pKB - log[B]₀)</Preview>
+        <Umformung>(pK / 2) * -(log10(B))</Umformung>
+        <Umformung>(2 * p) + log10(B)</Umformung>
+        <Umformung>10^((-2 * p) + pK)</Umformung>
+        <LaTeX lang="DE">$$pOH = \frac{pK_B - \log{[B]_0}}{2}$$</LaTeX>
+        <LaTeX lang="DE">$$pK_B = 2 \cdot pOH + \log{[B]_0}$$</LaTeX>
+        <LaTeX lang="DE">$$[B]_0 = 10^{-2 \cdot pOH + pK_B}$$</LaTeX>
+        <Variable>pOH</Variable>
+        <Variable>pKb</Variable>
+        <Variable>base_con</Variable>
+    </Formel>
+
+    <Formel>
+        <Category>reac</Category>
+        <ButtonText lang="DE">Mittlere Reaktionsgeschwindigkeit</ButtonText>
+        <ButtonText lang="ENG">Average reaction rate</ButtonText>
+        <Preview lang="DE">v = Δc ÷ t</Preview>
+        <Umformung>c / t</Umformung>
+        <Umformung>v * t</Umformung>
+        <Umformung>c / v</Umformung>
+        <LaTeX lang="DE">$$\bar{v} = \frac{\Delta c}{t}$$</LaTeX>
+        <LaTeX lang="DE">$$\Delta c = v \cdot t$$</LaTeX>
+        <LaTeX lang="DE">$$t = \frac{\Delta c}{\bar{v}}$$</LaTeX>
+        <Variable>velocity_reaction</Variable>
+        <Variable>concentration_change</Variable>
+        <Variable>time</Variable>
+    </Formel>
+
+</Formeln>
